@@ -1,0 +1,156 @@
+\hypertarget{classCSimulator}{}\doxysubsection{C\+Simulator Class Reference}
+\label{classCSimulator}\index{CSimulator@{CSimulator}}
+
+
+{\ttfamily \#include $<$C\+Simulator.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCSimulator_a70cf03ff1f1231c062cd947352954e99}{C\+Simulator}} ()
+\item 
+\mbox{\hyperlink{classCSimulator_a12547c8825dbe64a10232b42d4aaa460}{C\+Simulator}} (int vector\+\_\+size, int $\ast$circuit\+\_\+vector, const \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} \&params)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classCSimulator}{C\+Simulator}} constructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCSimulator_a7b6a390b4df2e6549f4f2ad39a8be054}{solve}} ()
+\begin{DoxyCompactList}\small\item\em Solve the simulation. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCSimulator_a5659da251fd5f6751b124d9f4f7d2979}{calculate\+\_\+reward}} (bool is\+\_\+converge)
+\begin{DoxyCompactList}\small\item\em Calculate the reward. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classCSimulator_ab7e9225634b5e4d5a3f518a37984246a}{get\+\_\+total\+\_\+concentrate\+\_\+ger}} ()
+\item 
+double \mbox{\hyperlink{classCSimulator_ab6df4f49da271cc70e8bfa6fc99a2b72}{get\+\_\+total\+\_\+concentrate\+\_\+waste}} ()
+\item 
+double \mbox{\hyperlink{classCSimulator_a4ec5da4a3758b66002d086f7ee29fd02}{get\+\_\+total\+\_\+tail\+\_\+ger}} ()
+\item 
+double \mbox{\hyperlink{classCSimulator_abaffd10af07fff2e772bf49f5468b0f5}{get\+\_\+total\+\_\+tail\+\_\+waste}} ()
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classCSimulator_a04aa7ccec4f74b38e11857c3435c4571}{get\+\_\+final\+\_\+concentrate\+\_\+list}} () const
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classCSimulator_a3db20ea15a592fd59e68851cc80f1363}{get\+\_\+final\+\_\+tail\+\_\+list}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classCUnit}{C\+Unit}} $>$ \mbox{\hyperlink{classCSimulator_a24ddf539e40628d364dbf508a910102b}{get\+\_\+units\+\_\+vector}} ()
+\item 
+void \mbox{\hyperlink{classCSimulator_aee895283fa8200889968c627eb597bb9}{write\+\_\+vector\+\_\+values\+\_\+to\+\_\+array}} (double $\ast$dest)
+\begin{DoxyCompactList}\small\item\em writing the values in C\+Units to an array \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCSimulator_a70cf03ff1f1231c062cd947352954e99}\label{classCSimulator_a70cf03ff1f1231c062cd947352954e99}} 
+\index{CSimulator@{CSimulator}!CSimulator@{CSimulator}}
+\index{CSimulator@{CSimulator}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{CSimulator()}{CSimulator()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily C\+Simulator\+::\+C\+Simulator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classCSimulator_a12547c8825dbe64a10232b42d4aaa460}\label{classCSimulator_a12547c8825dbe64a10232b42d4aaa460}} 
+\index{CSimulator@{CSimulator}!CSimulator@{CSimulator}}
+\index{CSimulator@{CSimulator}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{CSimulator()}{CSimulator()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily C\+Simulator\+::\+C\+Simulator (\begin{DoxyParamCaption}\item[{int}]{vector\+\_\+size,  }\item[{int $\ast$}]{circuit\+\_\+vector,  }\item[{const \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} \&}]{params }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classCSimulator}{C\+Simulator}} constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector\+\_\+size} & Size of the circuit\+\_\+vector. \\
+\hline
+{\em circuit\+\_\+vector} & Vector representing the circuit. \\
+\hline
+{\em params} & Parameters for the simulation. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCSimulator_a5659da251fd5f6751b124d9f4f7d2979}\label{classCSimulator_a5659da251fd5f6751b124d9f4f7d2979}} 
+\index{CSimulator@{CSimulator}!calculate\_reward@{calculate\_reward}}
+\index{calculate\_reward@{calculate\_reward}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{calculate\_reward()}{calculate\_reward()}}
+{\footnotesize\ttfamily double C\+Simulator\+::calculate\+\_\+reward (\begin{DoxyParamCaption}\item[{bool}]{is\+\_\+converge }\end{DoxyParamCaption})}
+
+
+
+Calculate the reward. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+\_\+converge} & Boolean parameter determining if the simulator has converged. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reward for the simulation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCSimulator_a04aa7ccec4f74b38e11857c3435c4571}\label{classCSimulator_a04aa7ccec4f74b38e11857c3435c4571}} 
+\index{CSimulator@{CSimulator}!get\_final\_concentrate\_list@{get\_final\_concentrate\_list}}
+\index{get\_final\_concentrate\_list@{get\_final\_concentrate\_list}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{get\_final\_concentrate\_list()}{get\_final\_concentrate\_list()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ C\+Simulator\+::get\+\_\+final\+\_\+concentrate\+\_\+list (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classCSimulator_a3db20ea15a592fd59e68851cc80f1363}\label{classCSimulator_a3db20ea15a592fd59e68851cc80f1363}} 
+\index{CSimulator@{CSimulator}!get\_final\_tail\_list@{get\_final\_tail\_list}}
+\index{get\_final\_tail\_list@{get\_final\_tail\_list}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{get\_final\_tail\_list()}{get\_final\_tail\_list()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ C\+Simulator\+::get\+\_\+final\+\_\+tail\+\_\+list (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classCSimulator_ab7e9225634b5e4d5a3f518a37984246a}\label{classCSimulator_ab7e9225634b5e4d5a3f518a37984246a}} 
+\index{CSimulator@{CSimulator}!get\_total\_concentrate\_ger@{get\_total\_concentrate\_ger}}
+\index{get\_total\_concentrate\_ger@{get\_total\_concentrate\_ger}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{get\_total\_concentrate\_ger()}{get\_total\_concentrate\_ger()}}
+{\footnotesize\ttfamily double C\+Simulator\+::get\+\_\+total\+\_\+concentrate\+\_\+ger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classCSimulator_ab6df4f49da271cc70e8bfa6fc99a2b72}\label{classCSimulator_ab6df4f49da271cc70e8bfa6fc99a2b72}} 
+\index{CSimulator@{CSimulator}!get\_total\_concentrate\_waste@{get\_total\_concentrate\_waste}}
+\index{get\_total\_concentrate\_waste@{get\_total\_concentrate\_waste}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{get\_total\_concentrate\_waste()}{get\_total\_concentrate\_waste()}}
+{\footnotesize\ttfamily double C\+Simulator\+::get\+\_\+total\+\_\+concentrate\+\_\+waste (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classCSimulator_a4ec5da4a3758b66002d086f7ee29fd02}\label{classCSimulator_a4ec5da4a3758b66002d086f7ee29fd02}} 
+\index{CSimulator@{CSimulator}!get\_total\_tail\_ger@{get\_total\_tail\_ger}}
+\index{get\_total\_tail\_ger@{get\_total\_tail\_ger}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{get\_total\_tail\_ger()}{get\_total\_tail\_ger()}}
+{\footnotesize\ttfamily double C\+Simulator\+::get\+\_\+total\+\_\+tail\+\_\+ger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classCSimulator_abaffd10af07fff2e772bf49f5468b0f5}\label{classCSimulator_abaffd10af07fff2e772bf49f5468b0f5}} 
+\index{CSimulator@{CSimulator}!get\_total\_tail\_waste@{get\_total\_tail\_waste}}
+\index{get\_total\_tail\_waste@{get\_total\_tail\_waste}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{get\_total\_tail\_waste()}{get\_total\_tail\_waste()}}
+{\footnotesize\ttfamily double C\+Simulator\+::get\+\_\+total\+\_\+tail\+\_\+waste (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classCSimulator_a24ddf539e40628d364dbf508a910102b}\label{classCSimulator_a24ddf539e40628d364dbf508a910102b}} 
+\index{CSimulator@{CSimulator}!get\_units\_vector@{get\_units\_vector}}
+\index{get\_units\_vector@{get\_units\_vector}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{get\_units\_vector()}{get\_units\_vector()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classCUnit}{C\+Unit}}$>$ C\+Simulator\+::get\+\_\+units\+\_\+vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classCSimulator_a7b6a390b4df2e6549f4f2ad39a8be054}\label{classCSimulator_a7b6a390b4df2e6549f4f2ad39a8be054}} 
+\index{CSimulator@{CSimulator}!solve@{solve}}
+\index{solve@{solve}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{solve()}{solve()}}
+{\footnotesize\ttfamily bool C\+Simulator\+::solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Solve the simulation. 
+
+\begin{DoxyReturn}{Returns}
+True if the simulation was solved successfully, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCSimulator_aee895283fa8200889968c627eb597bb9}\label{classCSimulator_aee895283fa8200889968c627eb597bb9}} 
+\index{CSimulator@{CSimulator}!write\_vector\_values\_to\_array@{write\_vector\_values\_to\_array}}
+\index{write\_vector\_values\_to\_array@{write\_vector\_values\_to\_array}!CSimulator@{CSimulator}}
+\doxyparagraph{\texorpdfstring{write\_vector\_values\_to\_array()}{write\_vector\_values\_to\_array()}}
+{\footnotesize\ttfamily void C\+Simulator\+::write\+\_\+vector\+\_\+values\+\_\+to\+\_\+array (\begin{DoxyParamCaption}\item[{double $\ast$}]{dest }\end{DoxyParamCaption})}
+
+
+
+writing the values in C\+Units to an array 
+
+\begin{DoxyReturn}{Returns}
+destination write buffer 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{CSimulator_8h}{C\+Simulator.\+h}}\item 
+src/\mbox{\hyperlink{CSimulator_8cpp}{C\+Simulator.\+cpp}}\end{DoxyCompactItemize}

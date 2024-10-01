@@ -1,0 +1,144 @@
+Start testing: May 26 09:26 BST
+----------------------------------------------------------
+1/4 Testing: test_validity
+1/4 Test: test_validity
+Command: "/home/vidushee/downloads/acs-gerardium-rush-dolomite/build/tests/bin/test_validity"
+Directory: /home/vidushee/downloads/acs-gerardium-rush-dolomite/build/tests
+"test_validity" start time: May 26 09:26 BST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_validity" end time: May 26 09:26 BST
+"test_validity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: test_simulator
+2/4 Test: test_simulator
+Command: "/home/vidushee/downloads/acs-gerardium-rush-dolomite/build/tests/bin/test_simulator"
+Directory: /home/vidushee/downloads/acs-gerardium-rush-dolomite/build/tests
+"test_simulator" start time: May 26 09:26 BST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_simulator" end time: May 26 09:26 BST
+"test_simulator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test_GA
+3/4 Test: test_GA
+Command: "/home/vidushee/downloads/acs-gerardium-rush-dolomite/build/tests/bin/test_GA"
+Directory: /home/vidushee/downloads/acs-gerardium-rush-dolomite/build/tests
+"test_GA" start time: May 26 09:26 BST
+Output:
+----------------------------------------------------------
+parallel enable is set 
+Starting GA:
+Iteration: 0
+Iteration: 20
+Iteration: 40
+Iteration: 60
+Iteration: 80
+Iteration: 100
+Converged in 108 iterations.
+Best circuit vector: 
+0 4 2 4 6 4 1 5 4 3 0 
+Fitness score: 105.729
+parallel enable is set 
+Starting GA:
+Iteration: 0
+Iteration: 20
+Iteration: 40
+Iteration: 60
+Iteration: 80
+Iteration: 100
+Iteration: 120
+Iteration: 140
+Converged in 141 iterations.
+Best circuit vector: 
+1 7 9 7 3 4 1 7 0 8 7 4 2 7 11 4 5 10 4 7 6 
+Fitness score: 375.497
+parallel enable is set 
+Starting GA:
+Iteration: 0
+Iteration: 20
+Iteration: 40
+Iteration: 60
+Iteration: 80
+Iteration: 100
+Iteration: 120
+Iteration: 140
+Iteration: 160
+Iteration: 180
+Iteration: 200
+Iteration: 220
+Iteration: 240
+Iteration: 260
+Iteration: 280
+Iteration: 300
+Iteration: 320
+Iteration: 340
+Iteration: 360
+Iteration: 380
+Iteration: 400
+Iteration: 420
+Iteration: 440
+Iteration: 460
+Iteration: 480
+Iteration: 500
+Iteration: 520
+Converged in 536 iterations.
+Best circuit vector: 
+13 19 3 12 18 18 16 6 21 1 2 18 11 10 15 1 14 18 5 19 0 17 1 19 9 17 10 1 7 1 4 1 13 18 8 20 12 12 19 12 6 
+Fitness score: 696.094
+<end of output>
+Test time =  16.17 sec
+----------------------------------------------------------
+Test Passed.
+"test_GA" end time: May 26 09:27 BST
+"test_GA" time elapsed: 00:00:16
+----------------------------------------------------------
+
+4/4 Testing: executable
+4/4 Test: executable
+Command: "/home/vidushee/downloads/acs-gerardium-rush-dolomite/build/bin/Circuit_Optimizer"
+Directory: /home/vidushee/downloads/acs-gerardium-rush-dolomite/build/tests
+"executable" start time: May 26 09:27 BST
+Output:
+----------------------------------------------------------
+parallel enable is set 
+Starting GA:
+Iteration: 0
+Iteration: 20
+Iteration: 40
+Iteration: 60
+Iteration: 80
+Iteration: 100
+Iteration: 120
+Iteration: 140
+Iteration: 160
+Iteration: 180
+Iteration: 200
+Iteration: 220
+Iteration: 240
+Iteration: 260
+Iteration: 280
+Iteration: 300
+Converged in 313 iterations.
+Best circuit vector: 
+12 8 1 8 14 8 9 6 11 5 13 10 8 5 4 10 5 7 6 8 3 15 7 6 16 8 0 8 12 8 2 
+Fitness score: 552.223
+<end of output>
+Test time =   5.12 sec
+----------------------------------------------------------
+Test Passed.
+"executable" end time: May 26 09:27 BST
+"executable" time elapsed: 00:00:05
+----------------------------------------------------------
+
+End testing: May 26 09:27 BST

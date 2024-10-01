@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp   CMakeFiles/simulator_tests.dir/simulator_tests.cpp.o  -o bin/simulator_tests  ../lib/libgeneticAlgorithm.a ../src/libcircuitSimulator.a 

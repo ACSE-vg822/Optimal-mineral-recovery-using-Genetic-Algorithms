@@ -1,0 +1,83 @@
+\hypertarget{CSimulator_8h}{}\doxysubsection{include/\+C\+Simulator.h File Reference}
+\label{CSimulator_8h}\index{include/CSimulator.h@{include/CSimulator.h}}
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include \char`\"{}C\+Unit.\+h\char`\"{}}\newline
+Include dependency graph for C\+Simulator.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{CSimulator_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{CSimulator_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}}
+\item 
+class \mbox{\hyperlink{classCSimulator}{C\+Simulator}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{CSimulator_8h_af832ec0792c1b97156d4a40e19fd5870}{evaluate\+\_\+circuit}} (int vector\+\_\+size, int $\ast$circuit\+\_\+vector, const \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} \&params, bool \&is\+\_\+valid)
+\begin{DoxyCompactList}\small\item\em Evaluate the circuit. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{CSimulator_8h_accbacf7171f89b78d4c77e372b04ebe0}{evaluate\+\_\+circuit\+\_\+write}} (int vector\+\_\+size, int $\ast$circuit\+\_\+vector, double $\ast$edge\+\_\+vector, const \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} \&params)
+\begin{DoxyCompactList}\small\item\em Evaluate the circuit and save the circuit information in the given buffer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Function Documentation}
+\mbox{\Hypertarget{CSimulator_8h_af832ec0792c1b97156d4a40e19fd5870}\label{CSimulator_8h_af832ec0792c1b97156d4a40e19fd5870}} 
+\index{CSimulator.h@{CSimulator.h}!evaluate\_circuit@{evaluate\_circuit}}
+\index{evaluate\_circuit@{evaluate\_circuit}!CSimulator.h@{CSimulator.h}}
+\doxyparagraph{\texorpdfstring{evaluate\_circuit()}{evaluate\_circuit()}}
+{\footnotesize\ttfamily double evaluate\+\_\+circuit (\begin{DoxyParamCaption}\item[{int}]{vector\+\_\+size,  }\item[{int $\ast$}]{circuit\+\_\+vector,  }\item[{const \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} \&}]{params,  }\item[{bool \&}]{is\+\_\+valid }\end{DoxyParamCaption})}
+
+
+
+Evaluate the circuit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector\+\_\+size} & Size of the circuit\+\_\+vector. \\
+\hline
+{\em circuit\+\_\+vector} & Vector representing the circuit. \\
+\hline
+{\em params} & Parameters for the evaluation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reward for the evaluation. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{CSimulator_8h_accbacf7171f89b78d4c77e372b04ebe0}\label{CSimulator_8h_accbacf7171f89b78d4c77e372b04ebe0}} 
+\index{CSimulator.h@{CSimulator.h}!evaluate\_circuit\_write@{evaluate\_circuit\_write}}
+\index{evaluate\_circuit\_write@{evaluate\_circuit\_write}!CSimulator.h@{CSimulator.h}}
+\doxyparagraph{\texorpdfstring{evaluate\_circuit\_write()}{evaluate\_circuit\_write()}}
+{\footnotesize\ttfamily double evaluate\+\_\+circuit\+\_\+write (\begin{DoxyParamCaption}\item[{int}]{vector\+\_\+size,  }\item[{int $\ast$}]{circuit\+\_\+vector,  }\item[{double $\ast$}]{edge\+\_\+vector,  }\item[{const \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} \&}]{params }\end{DoxyParamCaption})}
+
+
+
+Evaluate the circuit and save the circuit information in the given buffer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector\+\_\+size} & Size of the circuit\+\_\+vector. \\
+\hline
+{\em edge\+\_\+vector} & Save buffer \\
+\hline
+{\em circuit\+\_\+vector} & Vector representing the circuit. \\
+\hline
+{\em params} & Parameters for the evaluation. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reward for the evaluation. 
+\end{DoxyReturn}

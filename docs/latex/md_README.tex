@@ -1,0 +1,47 @@
+\char`\"{}\+The Gerardium Rush\char`\"{} repository is dedicated to the implementation of a Genetic Algorithm (\mbox{\hyperlink{classGA}{GA}}) optimized for the task of maximizing the recovery of a valuable mineral named \char`\"{}gerardium\char`\"{} through the process of separation. The \mbox{\hyperlink{classGA}{GA}} simulates the operation of separation units such as flotation cells or spirals, which are arranged in circuits to extract valuable material while also separating waste. The challenge lies in designing these circuits for optimal recovery and purity of gerardium, balancing the trade-\/off between these two factors based on economic considerations. The repository confines its scope to two product streams -\/ a valuable concentrate stream and a waste-\/dominated tailings stream. The success of the separation circuit is evaluated based on the purity and weight of the gerardium in the concentrate stream. Given the vast number of potential circuit configurations, the genetic algorithm is leveraged to find an optimal solution, proving its effectiveness in tackling discrete optimization problems.\hypertarget{md_README_autotoc_md1}{}\doxysubsection{Installation}\label{md_README_autotoc_md1}
+To compile 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{mkdir build}
+\DoxyCodeLine{cd build}
+\DoxyCodeLine{cmake -\/-\/toolchain ../toolchain.cmake ..}
+\DoxyCodeLine{make}
+\DoxyCodeLine{cd ..}
+\end{DoxyCode}
+
+
+Currently the toolchain file requires {\ttfamily g++-\/13} and {\ttfamily gcc-\/13} installed, but any c++/c compiler that supports openmp will work. Replace {\ttfamily g++-\/13} and {\ttfamily gcc-\/13} to the path to the respective supporting compiler in toochain.\+cmake. To remake, clean up the build directory and rerun the compile commands.
+
+To run, from the base directory run 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{./build/bin/Circuit\_Optimizer}
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md2}{}\doxysubsection{File generation}\label{md_README_autotoc_md2}
+To write the result to file, from the base directory run 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{mkdir out}
+\DoxyCodeLine{./build/bin/Circuit\_Optimizer}
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md3}{}\doxysubsection{Macros}\label{md_README_autotoc_md3}
+The package defines several macros for user to use. \hypertarget{md_README_autotoc_md4}{}\doxysubsubsection{P\+A\+R\+A\+L\+L\+E\+L\+\_\+\+E\+N\+A\+B\+LE}\label{md_README_autotoc_md4}
+Macro for M\+PI functionalities. If defined, the program will utilize M\+PI if {\ttfamily parallel\+\_\+mpi} is set to 1. {\ttfamily M\+P\+I\+\_\+\+Init()} should be called inside {\ttfamily main} before any {\ttfamily \mbox{\hyperlink{classGA}{GA}}} object is created. {\ttfamily M\+P\+I\+\_\+\+Finalize()} is handled in {\ttfamily \mbox{\hyperlink{classGA}{GA}}}\textquotesingle{}s destructor, meaning that only one {\ttfamily \mbox{\hyperlink{classGA}{GA}}} object should be created and destroyed. \hypertarget{md_README_autotoc_md5}{}\doxysubsubsection{O\+U\+T\+\_\+\+R\+E\+S\+U\+L\+T\+\_\+\+T\+O\+\_\+\+F\+I\+LE}\label{md_README_autotoc_md5}
+Macro for write result to file. \hypertarget{md_README_autotoc_md6}{}\doxysubsubsection{P\+E\+R\+F\+O\+R\+M\+A\+N\+C\+E\+\_\+\+A\+N\+A\+L\+Y\+S\+I\+S\+\_\+\+M\+A\+C\+RO}\label{md_README_autotoc_md6}
+Macro for doing extra work to perform some analysis. \hypertarget{md_README_autotoc_md7}{}\doxysubsection{Test}\label{md_README_autotoc_md7}
+To run the test 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{./build/tests/bin/test\_validity}
+\DoxyCodeLine{./build/tests/bin/simulator\_tests}
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md8}{}\doxysubsection{Post-\/processing}\label{md_README_autotoc_md8}
+ The python script contained in \mbox{\hyperlink{graph_8py}{src/graph.\+py}} can be used to generate a graph of the results. The script takes in a dat file containing the results of the simulation and generates a graph of the results.\hypertarget{md_README_autotoc_md9}{}\doxysubsection{Documentation}\label{md_README_autotoc_md9}
+To generate configuration file 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{doxygen -\/g}
+\end{DoxyCode}
+
+
+To generate documentation 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{doxygen Doxyfile}
+\end{DoxyCode}
+\hypertarget{md_README_autotoc_md10}{}\doxysubsection{License}\label{md_README_autotoc_md10}
+Distributed under the M\+IT License. See L\+I\+C\+E\+N\+SE for more information. 

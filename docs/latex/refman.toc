@@ -1,0 +1,404 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {section}{\numberline {1}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SE}{1}{section.1}%
+\contentsline {section}{\numberline {2}Gormanium rush}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Installation}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}File generation}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Macros}{2}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LE}{2}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}O\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}O\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}F\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}LE}{2}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}F\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}O\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Y\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RO}{3}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Test}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Post-\/processing}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Documentation}{3}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}License}{3}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Namespace Index}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Namespace List}{3}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Class Index}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Class List}{3}{subsection.4.1}%
+\contentsline {section}{\numberline {5}File Index}{4}{section.5}%
+\contentsline {subsection}{\numberline {5.1}File List}{4}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Namespace Documentation}{5}{section.6}%
+\contentsline {subsection}{\numberline {6.1}graph Namespace Reference}{5}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Function Documentation}{5}{subsubsection.6.1.1}%
+\contentsline {paragraph}{\numberline {6.1.1.1}read\_inputs()}{5}{paragraph.6.1.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Variable Documentation}{6}{subsubsection.6.1.2}%
+\contentsline {paragraph}{\numberline {6.1.2.1}arrowhead}{6}{paragraph.6.1.2.1}%
+\contentsline {paragraph}{\numberline {6.1.2.2}cleanup}{6}{paragraph.6.1.2.2}%
+\contentsline {paragraph}{\numberline {6.1.2.3}color}{6}{paragraph.6.1.2.3}%
+\contentsline {paragraph}{\numberline {6.1.2.4}copy\_list}{6}{paragraph.6.1.2.4}%
+\contentsline {paragraph}{\numberline {6.1.2.5}end\_node}{6}{paragraph.6.1.2.5}%
+\contentsline {paragraph}{\numberline {6.1.2.6}format}{6}{paragraph.6.1.2.6}%
+\contentsline {paragraph}{\numberline {6.1.2.7}graph}{6}{paragraph.6.1.2.7}%
+\contentsline {paragraph}{\numberline {6.1.2.8}headport}{6}{paragraph.6.1.2.8}%
+\contentsline {paragraph}{\numberline {6.1.2.9}height}{6}{paragraph.6.1.2.9}%
+\contentsline {paragraph}{\numberline {6.1.2.10}index}{6}{paragraph.6.1.2.10}%
+\contentsline {paragraph}{\numberline {6.1.2.11}label}{7}{paragraph.6.1.2.11}%
+\contentsline {paragraph}{\numberline {6.1.2.12}largest}{7}{paragraph.6.1.2.12}%
+\contentsline {paragraph}{\numberline {6.1.2.13}node\_name}{7}{paragraph.6.1.2.13}%
+\contentsline {paragraph}{\numberline {6.1.2.14}rankdir}{7}{paragraph.6.1.2.14}%
+\contentsline {paragraph}{\numberline {6.1.2.15}second\_largest}{7}{paragraph.6.1.2.15}%
+\contentsline {paragraph}{\numberline {6.1.2.16}shape}{7}{paragraph.6.1.2.16}%
+\contentsline {paragraph}{\numberline {6.1.2.17}tailport}{7}{paragraph.6.1.2.17}%
+\contentsline {paragraph}{\numberline {6.1.2.18}True}{7}{paragraph.6.1.2.18}%
+\contentsline {paragraph}{\numberline {6.1.2.19}width}{7}{paragraph.6.1.2.19}%
+\contentsline {subsection}{\numberline {6.2}graph\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}oneline Namespace Reference}{7}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Function Documentation}{8}{subsubsection.6.2.1}%
+\contentsline {paragraph}{\numberline {6.2.1.1}read\_inputs()}{8}{paragraph.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Variable Documentation}{8}{subsubsection.6.2.2}%
+\contentsline {paragraph}{\numberline {6.2.2.1}arrowhead}{8}{paragraph.6.2.2.1}%
+\contentsline {paragraph}{\numberline {6.2.2.2}cleanup}{8}{paragraph.6.2.2.2}%
+\contentsline {paragraph}{\numberline {6.2.2.3}color}{8}{paragraph.6.2.2.3}%
+\contentsline {paragraph}{\numberline {6.2.2.4}copy\_list}{8}{paragraph.6.2.2.4}%
+\contentsline {paragraph}{\numberline {6.2.2.5}end\_node}{9}{paragraph.6.2.2.5}%
+\contentsline {paragraph}{\numberline {6.2.2.6}format}{9}{paragraph.6.2.2.6}%
+\contentsline {paragraph}{\numberline {6.2.2.7}graph}{9}{paragraph.6.2.2.7}%
+\contentsline {paragraph}{\numberline {6.2.2.8}headport}{9}{paragraph.6.2.2.8}%
+\contentsline {paragraph}{\numberline {6.2.2.9}height}{9}{paragraph.6.2.2.9}%
+\contentsline {paragraph}{\numberline {6.2.2.10}index}{9}{paragraph.6.2.2.10}%
+\contentsline {paragraph}{\numberline {6.2.2.11}int\_list}{9}{paragraph.6.2.2.11}%
+\contentsline {paragraph}{\numberline {6.2.2.12}largest}{9}{paragraph.6.2.2.12}%
+\contentsline {paragraph}{\numberline {6.2.2.13}node\_name}{9}{paragraph.6.2.2.13}%
+\contentsline {paragraph}{\numberline {6.2.2.14}rankdir}{9}{paragraph.6.2.2.14}%
+\contentsline {paragraph}{\numberline {6.2.2.15}second\_largest}{9}{paragraph.6.2.2.15}%
+\contentsline {paragraph}{\numberline {6.2.2.16}shape}{10}{paragraph.6.2.2.16}%
+\contentsline {paragraph}{\numberline {6.2.2.17}tailport}{10}{paragraph.6.2.2.17}%
+\contentsline {paragraph}{\numberline {6.2.2.18}True}{10}{paragraph.6.2.2.18}%
+\contentsline {paragraph}{\numberline {6.2.2.19}width}{10}{paragraph.6.2.2.19}%
+\contentsline {section}{\numberline {7}Class Documentation}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Algorithm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Parameters Struct Reference}{10}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Detailed Description}{10}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Member Data Documentation}{11}{subsubsection.7.1.2}%
+\contentsline {paragraph}{\numberline {7.1.2.1}circuit\_size}{11}{paragraph.7.1.2.1}%
+\contentsline {paragraph}{\numberline {7.1.2.2}communicate\_interval}{11}{paragraph.7.1.2.2}%
+\contentsline {paragraph}{\numberline {7.1.2.3}crossover\_rate}{11}{paragraph.7.1.2.3}%
+\contentsline {paragraph}{\numberline {7.1.2.4}max\_iter\_before\_fail}{11}{paragraph.7.1.2.4}%
+\contentsline {paragraph}{\numberline {7.1.2.5}max\_iter\_without\_progress}{11}{paragraph.7.1.2.5}%
+\contentsline {paragraph}{\numberline {7.1.2.6}max\_iterations}{11}{paragraph.7.1.2.6}%
+\contentsline {paragraph}{\numberline {7.1.2.7}mutation\_rate}{11}{paragraph.7.1.2.7}%
+\contentsline {paragraph}{\numberline {7.1.2.8}mutation\_rate\_increase\_factor}{11}{paragraph.7.1.2.8}%
+\contentsline {paragraph}{\numberline {7.1.2.9}mutation\_scheme}{11}{paragraph.7.1.2.9}%
+\contentsline {paragraph}{\numberline {7.1.2.10}mutation\_size}{11}{paragraph.7.1.2.10}%
+\contentsline {paragraph}{\numberline {7.1.2.11}parallel\_mpi}{12}{paragraph.7.1.2.11}%
+\contentsline {paragraph}{\numberline {7.1.2.12}parent\_comm\_size\_parallel}{12}{paragraph.7.1.2.12}%
+\contentsline {paragraph}{\numberline {7.1.2.13}parent\_pool\_size}{12}{paragraph.7.1.2.13}%
+\contentsline {paragraph}{\numberline {7.1.2.14}population\_size}{12}{paragraph.7.1.2.14}%
+\contentsline {paragraph}{\numberline {7.1.2.15}selection\_scheme}{12}{paragraph.7.1.2.15}%
+\contentsline {paragraph}{\numberline {7.1.2.16}tol}{12}{paragraph.7.1.2.16}%
+\contentsline {paragraph}{\numberline {7.1.2.17}tournament\_size}{12}{paragraph.7.1.2.17}%
+\contentsline {paragraph}{\numberline {7.1.2.18}tournament\_size\_parallel}{12}{paragraph.7.1.2.18}%
+\contentsline {paragraph}{\numberline {7.1.2.19}write\_interval}{12}{paragraph.7.1.2.19}%
+\contentsline {subsection}{\numberline {7.2}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Circuit Class Reference}{12}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Detailed Description}{13}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Constructor \& Destructor Documentation}{13}{subsubsection.7.2.2}%
+\contentsline {paragraph}{\numberline {7.2.2.1}CCircuit()}{13}{paragraph.7.2.2.1}%
+\contentsline {paragraph}{\numberline {7.2.2.2}$\sim $CCircuit()}{13}{paragraph.7.2.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Member Function Documentation}{13}{subsubsection.7.2.3}%
+\contentsline {paragraph}{\numberline {7.2.3.1}check\_validity()}{14}{paragraph.7.2.3.1}%
+\contentsline {subsection}{\numberline {7.3}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulator Class Reference}{14}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Constructor \& Destructor Documentation}{15}{subsubsection.7.3.1}%
+\contentsline {paragraph}{\numberline {7.3.1.1}CSimulator()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{15}{paragraph.7.3.1.1}%
+\contentsline {paragraph}{\numberline {7.3.1.2}CSimulator()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{15}{paragraph.7.3.1.2}%
+\contentsline {subsubsection}{\numberline {7.3.2}Member Function Documentation}{15}{subsubsection.7.3.2}%
+\contentsline {paragraph}{\numberline {7.3.2.1}calculate\_reward()}{15}{paragraph.7.3.2.1}%
+\contentsline {paragraph}{\numberline {7.3.2.2}get\_final\_concentrate\_list()}{16}{paragraph.7.3.2.2}%
+\contentsline {paragraph}{\numberline {7.3.2.3}get\_final\_tail\_list()}{16}{paragraph.7.3.2.3}%
+\contentsline {paragraph}{\numberline {7.3.2.4}get\_total\_concentrate\_ger()}{16}{paragraph.7.3.2.4}%
+\contentsline {paragraph}{\numberline {7.3.2.5}get\_total\_concentrate\_waste()}{16}{paragraph.7.3.2.5}%
+\contentsline {paragraph}{\numberline {7.3.2.6}get\_total\_tail\_ger()}{16}{paragraph.7.3.2.6}%
+\contentsline {paragraph}{\numberline {7.3.2.7}get\_total\_tail\_waste()}{16}{paragraph.7.3.2.7}%
+\contentsline {paragraph}{\numberline {7.3.2.8}get\_units\_vector()}{16}{paragraph.7.3.2.8}%
+\contentsline {paragraph}{\numberline {7.3.2.9}solve()}{16}{paragraph.7.3.2.9}%
+\contentsline {paragraph}{\numberline {7.3.2.10}write\_vector\_values\_to\_array()}{17}{paragraph.7.3.2.10}%
+\contentsline {subsection}{\numberline {7.4}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Unit Class Reference}{17}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Detailed Description}{17}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}Constructor \& Destructor Documentation}{18}{subsubsection.7.4.2}%
+\contentsline {paragraph}{\numberline {7.4.2.1}CUnit()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{18}{paragraph.7.4.2.1}%
+\contentsline {paragraph}{\numberline {7.4.2.2}CUnit()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{18}{paragraph.7.4.2.2}%
+\contentsline {paragraph}{\numberline {7.4.2.3}$\sim $CUnit()}{18}{paragraph.7.4.2.3}%
+\contentsline {subsubsection}{\numberline {7.4.3}Member Function Documentation}{18}{subsubsection.7.4.3}%
+\contentsline {paragraph}{\numberline {7.4.3.1}get\_is\_feed()}{18}{paragraph.7.4.3.1}%
+\contentsline {paragraph}{\numberline {7.4.3.2}get\_unit\_id()}{18}{paragraph.7.4.3.2}%
+\contentsline {subsubsection}{\numberline {7.4.4}Member Data Documentation}{18}{subsubsection.7.4.4}%
+\contentsline {paragraph}{\numberline {7.4.4.1}c\_ger\_flow\_out}{18}{paragraph.7.4.4.1}%
+\contentsline {paragraph}{\numberline {7.4.4.2}c\_waste\_flow\_out}{18}{paragraph.7.4.4.2}%
+\contentsline {paragraph}{\numberline {7.4.4.3}concentrate\_feed\_list}{18}{paragraph.7.4.4.3}%
+\contentsline {paragraph}{\numberline {7.4.4.4}concentrate\_list}{19}{paragraph.7.4.4.4}%
+\contentsline {paragraph}{\numberline {7.4.4.5}ger\_flow\_in}{19}{paragraph.7.4.4.5}%
+\contentsline {paragraph}{\numberline {7.4.4.6}ger\_flow\_in\_old}{19}{paragraph.7.4.4.6}%
+\contentsline {paragraph}{\numberline {7.4.4.7}ger\_recovery}{19}{paragraph.7.4.4.7}%
+\contentsline {paragraph}{\numberline {7.4.4.8}t\_ger\_flow\_out}{19}{paragraph.7.4.4.8}%
+\contentsline {paragraph}{\numberline {7.4.4.9}t\_waste\_flow\_out}{19}{paragraph.7.4.4.9}%
+\contentsline {paragraph}{\numberline {7.4.4.10}tails\_feed\_list}{19}{paragraph.7.4.4.10}%
+\contentsline {paragraph}{\numberline {7.4.4.11}tails\_list}{19}{paragraph.7.4.4.11}%
+\contentsline {paragraph}{\numberline {7.4.4.12}waste\_flow\_in}{19}{paragraph.7.4.4.12}%
+\contentsline {paragraph}{\numberline {7.4.4.13}waste\_flow\_in\_old}{19}{paragraph.7.4.4.13}%
+\contentsline {paragraph}{\numberline {7.4.4.14}waste\_recovery}{19}{paragraph.7.4.4.14}%
+\contentsline {subsection}{\numberline {7.5}GA Class Reference}{20}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Constructor \& Destructor Documentation}{22}{subsubsection.7.5.1}%
+\contentsline {paragraph}{\numberline {7.5.1.1}GA()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{22}{paragraph.7.5.1.1}%
+\contentsline {paragraph}{\numberline {7.5.1.2}GA()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{22}{paragraph.7.5.1.2}%
+\contentsline {paragraph}{\numberline {7.5.1.3}$\sim $GA()}{22}{paragraph.7.5.1.3}%
+\contentsline {subsubsection}{\numberline {7.5.2}Member Function Documentation}{23}{subsubsection.7.5.2}%
+\contentsline {paragraph}{\numberline {7.5.2.1}check\_same()}{23}{paragraph.7.5.2.1}%
+\contentsline {paragraph}{\numberline {7.5.2.2}copy\_parent\_to\_child()}{23}{paragraph.7.5.2.2}%
+\contentsline {paragraph}{\numberline {7.5.2.3}generalized\_copy()}{23}{paragraph.7.5.2.3}%
+\contentsline {paragraph}{\numberline {7.5.2.4}generate\_child()}{24}{paragraph.7.5.2.4}%
+\contentsline {paragraph}{\numberline {7.5.2.5}get\_idx()}{24}{paragraph.7.5.2.5}%
+\contentsline {paragraph}{\numberline {7.5.2.6}get\_idx\_node()}{24}{paragraph.7.5.2.6}%
+\contentsline {paragraph}{\numberline {7.5.2.7}get\_node\_num()}{25}{paragraph.7.5.2.7}%
+\contentsline {paragraph}{\numberline {7.5.2.8}in\_place\_sort()}{25}{paragraph.7.5.2.8}%
+\contentsline {paragraph}{\numberline {7.5.2.9}mpi\_reduction\_wrapper()}{25}{paragraph.7.5.2.9}%
+\contentsline {paragraph}{\numberline {7.5.2.10}mutation()}{25}{paragraph.7.5.2.10}%
+\contentsline {paragraph}{\numberline {7.5.2.11}optimize()}{26}{paragraph.7.5.2.11}%
+\contentsline {paragraph}{\numberline {7.5.2.12}optimize\_parallel()}{26}{paragraph.7.5.2.12}%
+\contentsline {paragraph}{\numberline {7.5.2.13}optimize\_without\_mpi()}{26}{paragraph.7.5.2.13}%
+\contentsline {paragraph}{\numberline {7.5.2.14}rank\_func()}{26}{paragraph.7.5.2.14}%
+\contentsline {paragraph}{\numberline {7.5.2.15}rank\_selection()}{26}{paragraph.7.5.2.15}%
+\contentsline {paragraph}{\numberline {7.5.2.16}reinitialize\_pil()}{26}{paragraph.7.5.2.16}%
+\contentsline {paragraph}{\numberline {7.5.2.17}roulette\_selection()}{27}{paragraph.7.5.2.17}%
+\contentsline {paragraph}{\numberline {7.5.2.18}roulette\_selection\_parallel()}{27}{paragraph.7.5.2.18}%
+\contentsline {paragraph}{\numberline {7.5.2.19}select\_mate()}{27}{paragraph.7.5.2.19}%
+\contentsline {paragraph}{\numberline {7.5.2.20}selection()}{27}{paragraph.7.5.2.20}%
+\contentsline {paragraph}{\numberline {7.5.2.21}set\_best\_to\_parent()}{27}{paragraph.7.5.2.21}%
+\contentsline {paragraph}{\numberline {7.5.2.22}setup()}{27}{paragraph.7.5.2.22}%
+\contentsline {paragraph}{\numberline {7.5.2.23}setup\_parallel()}{27}{paragraph.7.5.2.23}%
+\contentsline {paragraph}{\numberline {7.5.2.24}tournament\_selection()}{27}{paragraph.7.5.2.24}%
+\contentsline {paragraph}{\numberline {7.5.2.25}tournament\_selection\_parallel()}{27}{paragraph.7.5.2.25}%
+\contentsline {paragraph}{\numberline {7.5.2.26}two\_point\_crossover()}{27}{paragraph.7.5.2.26}%
+\contentsline {paragraph}{\numberline {7.5.2.27}update\_best()}{28}{paragraph.7.5.2.27}%
+\contentsline {paragraph}{\numberline {7.5.2.28}write\_to\_file()}{28}{paragraph.7.5.2.28}%
+\contentsline {subsubsection}{\numberline {7.5.3}Member Data Documentation}{28}{subsubsection.7.5.3}%
+\contentsline {paragraph}{\numberline {7.5.3.1}best\_circuit}{28}{paragraph.7.5.3.1}%
+\contentsline {paragraph}{\numberline {7.5.3.2}best\_fitness}{28}{paragraph.7.5.3.2}%
+\contentsline {paragraph}{\numberline {7.5.3.3}cur\_iter}{28}{paragraph.7.5.3.3}%
+\contentsline {paragraph}{\numberline {7.5.3.4}file\_write\_buffer}{28}{paragraph.7.5.3.4}%
+\contentsline {paragraph}{\numberline {7.5.3.5}fitness\_parents}{29}{paragraph.7.5.3.5}%
+\contentsline {paragraph}{\numberline {7.5.3.6}fitness\_population}{29}{paragraph.7.5.3.6}%
+\contentsline {paragraph}{\numberline {7.5.3.7}mate\_count\_all}{29}{paragraph.7.5.3.7}%
+\contentsline {paragraph}{\numberline {7.5.3.8}not\_improving\_count}{29}{paragraph.7.5.3.8}%
+\contentsline {paragraph}{\numberline {7.5.3.9}nottouched}{29}{paragraph.7.5.3.9}%
+\contentsline {paragraph}{\numberline {7.5.3.10}old\_best\_fitness}{29}{paragraph.7.5.3.10}%
+\contentsline {paragraph}{\numberline {7.5.3.11}parameters}{29}{paragraph.7.5.3.11}%
+\contentsline {paragraph}{\numberline {7.5.3.12}parents}{29}{paragraph.7.5.3.12}%
+\contentsline {paragraph}{\numberline {7.5.3.13}population}{30}{paragraph.7.5.3.13}%
+\contentsline {paragraph}{\numberline {7.5.3.14}population\_idex\_list}{30}{paragraph.7.5.3.14}%
+\contentsline {paragraph}{\numberline {7.5.3.15}rank\_sum}{30}{paragraph.7.5.3.15}%
+\contentsline {paragraph}{\numberline {7.5.3.16}rank\_val}{30}{paragraph.7.5.3.16}%
+\contentsline {paragraph}{\numberline {7.5.3.17}roulette\_sum}{30}{paragraph.7.5.3.17}%
+\contentsline {paragraph}{\numberline {7.5.3.18}same\_mate}{30}{paragraph.7.5.3.18}%
+\contentsline {paragraph}{\numberline {7.5.3.19}sim\_params}{30}{paragraph.7.5.3.19}%
+\contentsline {paragraph}{\numberline {7.5.3.20}size\_per\_cir}{30}{paragraph.7.5.3.20}%
+\contentsline {paragraph}{\numberline {7.5.3.21}vec\_size\_parent}{31}{paragraph.7.5.3.21}%
+\contentsline {paragraph}{\numberline {7.5.3.22}vec\_size\_population}{31}{paragraph.7.5.3.22}%
+\contentsline {subsection}{\numberline {7.6}Simulation\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Parameters Struct Reference}{31}{subsection.7.6}%
+\contentsline {subsubsection}{\numberline {7.6.1}Detailed Description}{31}{subsubsection.7.6.1}%
+\contentsline {subsubsection}{\numberline {7.6.2}Member Data Documentation}{31}{subsubsection.7.6.2}%
+\contentsline {paragraph}{\numberline {7.6.2.1}F0\_ger}{31}{paragraph.7.6.2.1}%
+\contentsline {paragraph}{\numberline {7.6.2.2}F0\_waste}{32}{paragraph.7.6.2.2}%
+\contentsline {paragraph}{\numberline {7.6.2.3}ger\_reward}{32}{paragraph.7.6.2.3}%
+\contentsline {paragraph}{\numberline {7.6.2.4}k\_ger}{32}{paragraph.7.6.2.4}%
+\contentsline {paragraph}{\numberline {7.6.2.5}k\_waste}{32}{paragraph.7.6.2.5}%
+\contentsline {paragraph}{\numberline {7.6.2.6}max\_iter}{32}{paragraph.7.6.2.6}%
+\contentsline {paragraph}{\numberline {7.6.2.7}min\_flowrate}{32}{paragraph.7.6.2.7}%
+\contentsline {paragraph}{\numberline {7.6.2.8}phi}{32}{paragraph.7.6.2.8}%
+\contentsline {paragraph}{\numberline {7.6.2.9}rho}{32}{paragraph.7.6.2.9}%
+\contentsline {paragraph}{\numberline {7.6.2.10}volume}{32}{paragraph.7.6.2.10}%
+\contentsline {paragraph}{\numberline {7.6.2.11}waste\_reward}{32}{paragraph.7.6.2.11}%
+\contentsline {section}{\numberline {8}File Documentation}{33}{section.8}%
+\contentsline {subsection}{\numberline {8.1}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cache.txt File Reference}{33}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Variable Documentation}{33}{subsubsection.8.1.1}%
+\contentsline {paragraph}{\numberline {8.1.1.1}\_\_pad0\_\_}{33}{paragraph.8.1.1.1}%
+\contentsline {paragraph}{\numberline {8.1.1.2}MPI\_CXX\_LINK\_FLAGS}{33}{paragraph.8.1.1.2}%
+\contentsline {paragraph}{\numberline {8.1.1.3}OpenMP\_C\_FLAGS}{33}{paragraph.8.1.1.3}%
+\contentsline {paragraph}{\numberline {8.1.1.4}OpenMP\_gomp\_LIBRARY}{33}{paragraph.8.1.1.4}%
+\contentsline {subsection}{\numberline {8.2}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.16.3/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.c File Reference}{33}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Macro Definition Documentation}{34}{subsubsection.8.2.1}%
+\contentsline {paragraph}{\numberline {8.2.1.1}ARCHITECTURE\_ID}{34}{paragraph.8.2.1.1}%
+\contentsline {paragraph}{\numberline {8.2.1.2}C\_DIALECT}{34}{paragraph.8.2.1.2}%
+\contentsline {paragraph}{\numberline {8.2.1.3}COMPILER\_ID}{34}{paragraph.8.2.1.3}%
+\contentsline {paragraph}{\numberline {8.2.1.4}DEC}{34}{paragraph.8.2.1.4}%
+\contentsline {paragraph}{\numberline {8.2.1.5}HEX}{34}{paragraph.8.2.1.5}%
+\contentsline {paragraph}{\numberline {8.2.1.6}PLATFORM\_ID}{34}{paragraph.8.2.1.6}%
+\contentsline {paragraph}{\numberline {8.2.1.7}STRINGIFY}{35}{paragraph.8.2.1.7}%
+\contentsline {paragraph}{\numberline {8.2.1.8}STRINGIFY\_HELPER}{35}{paragraph.8.2.1.8}%
+\contentsline {subsubsection}{\numberline {8.2.2}Function Documentation}{35}{subsubsection.8.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.1}main()}{35}{paragraph.8.2.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.3}Variable Documentation}{35}{subsubsection.8.2.3}%
+\contentsline {paragraph}{\numberline {8.2.3.1}info\_arch}{35}{paragraph.8.2.3.1}%
+\contentsline {paragraph}{\numberline {8.2.3.2}info\_compiler}{35}{paragraph.8.2.3.2}%
+\contentsline {paragraph}{\numberline {8.2.3.3}info\_language\_dialect\_default}{35}{paragraph.8.2.3.3}%
+\contentsline {paragraph}{\numberline {8.2.3.4}info\_platform}{35}{paragraph.8.2.3.4}%
+\contentsline {subsection}{\numberline {8.3}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.16.3/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.c File Reference}{35}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Macro Definition Documentation}{36}{subsubsection.8.3.1}%
+\contentsline {paragraph}{\numberline {8.3.1.1}ARCHITECTURE\_ID}{36}{paragraph.8.3.1.1}%
+\contentsline {paragraph}{\numberline {8.3.1.2}C\_DIALECT}{36}{paragraph.8.3.1.2}%
+\contentsline {paragraph}{\numberline {8.3.1.3}COMPILER\_ID}{36}{paragraph.8.3.1.3}%
+\contentsline {paragraph}{\numberline {8.3.1.4}DEC}{36}{paragraph.8.3.1.4}%
+\contentsline {paragraph}{\numberline {8.3.1.5}HEX}{36}{paragraph.8.3.1.5}%
+\contentsline {paragraph}{\numberline {8.3.1.6}PLATFORM\_ID}{37}{paragraph.8.3.1.6}%
+\contentsline {paragraph}{\numberline {8.3.1.7}STRINGIFY}{37}{paragraph.8.3.1.7}%
+\contentsline {paragraph}{\numberline {8.3.1.8}STRINGIFY\_HELPER}{37}{paragraph.8.3.1.8}%
+\contentsline {subsubsection}{\numberline {8.3.2}Function Documentation}{37}{subsubsection.8.3.2}%
+\contentsline {paragraph}{\numberline {8.3.2.1}main()}{37}{paragraph.8.3.2.1}%
+\contentsline {subsubsection}{\numberline {8.3.3}Variable Documentation}{37}{subsubsection.8.3.3}%
+\contentsline {paragraph}{\numberline {8.3.3.1}info\_arch}{37}{paragraph.8.3.3.1}%
+\contentsline {paragraph}{\numberline {8.3.3.2}info\_compiler}{37}{paragraph.8.3.3.2}%
+\contentsline {paragraph}{\numberline {8.3.3.3}info\_language\_dialect\_default}{37}{paragraph.8.3.3.3}%
+\contentsline {paragraph}{\numberline {8.3.3.4}info\_platform}{37}{paragraph.8.3.3.4}%
+\contentsline {subsection}{\numberline {8.4}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.16.3/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp File Reference}{38}{subsection.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.1}Macro Definition Documentation}{38}{subsubsection.8.4.1}%
+\contentsline {paragraph}{\numberline {8.4.1.1}ARCHITECTURE\_ID}{38}{paragraph.8.4.1.1}%
+\contentsline {paragraph}{\numberline {8.4.1.2}COMPILER\_ID}{38}{paragraph.8.4.1.2}%
+\contentsline {paragraph}{\numberline {8.4.1.3}CXX\_STD}{38}{paragraph.8.4.1.3}%
+\contentsline {paragraph}{\numberline {8.4.1.4}DEC}{38}{paragraph.8.4.1.4}%
+\contentsline {paragraph}{\numberline {8.4.1.5}HEX}{39}{paragraph.8.4.1.5}%
+\contentsline {paragraph}{\numberline {8.4.1.6}PLATFORM\_ID}{39}{paragraph.8.4.1.6}%
+\contentsline {paragraph}{\numberline {8.4.1.7}STRINGIFY}{39}{paragraph.8.4.1.7}%
+\contentsline {paragraph}{\numberline {8.4.1.8}STRINGIFY\_HELPER}{39}{paragraph.8.4.1.8}%
+\contentsline {subsubsection}{\numberline {8.4.2}Function Documentation}{39}{subsubsection.8.4.2}%
+\contentsline {paragraph}{\numberline {8.4.2.1}main()}{39}{paragraph.8.4.2.1}%
+\contentsline {subsubsection}{\numberline {8.4.3}Variable Documentation}{39}{subsubsection.8.4.3}%
+\contentsline {paragraph}{\numberline {8.4.3.1}info\_arch}{39}{paragraph.8.4.3.1}%
+\contentsline {paragraph}{\numberline {8.4.3.2}info\_compiler}{39}{paragraph.8.4.3.2}%
+\contentsline {paragraph}{\numberline {8.4.3.3}info\_language\_dialect\_default}{40}{paragraph.8.4.3.3}%
+\contentsline {paragraph}{\numberline {8.4.3.4}info\_platform}{40}{paragraph.8.4.3.4}%
+\contentsline {subsection}{\numberline {8.5}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/3.16.3/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compiler\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Id.cpp File Reference}{40}{subsection.8.5}%
+\contentsline {subsubsection}{\numberline {8.5.1}Macro Definition Documentation}{40}{subsubsection.8.5.1}%
+\contentsline {paragraph}{\numberline {8.5.1.1}ARCHITECTURE\_ID}{40}{paragraph.8.5.1.1}%
+\contentsline {paragraph}{\numberline {8.5.1.2}COMPILER\_ID}{40}{paragraph.8.5.1.2}%
+\contentsline {paragraph}{\numberline {8.5.1.3}CXX\_STD}{41}{paragraph.8.5.1.3}%
+\contentsline {paragraph}{\numberline {8.5.1.4}DEC}{41}{paragraph.8.5.1.4}%
+\contentsline {paragraph}{\numberline {8.5.1.5}HEX}{41}{paragraph.8.5.1.5}%
+\contentsline {paragraph}{\numberline {8.5.1.6}PLATFORM\_ID}{41}{paragraph.8.5.1.6}%
+\contentsline {paragraph}{\numberline {8.5.1.7}STRINGIFY}{41}{paragraph.8.5.1.7}%
+\contentsline {paragraph}{\numberline {8.5.1.8}STRINGIFY\_HELPER}{41}{paragraph.8.5.1.8}%
+\contentsline {subsubsection}{\numberline {8.5.2}Function Documentation}{41}{subsubsection.8.5.2}%
+\contentsline {paragraph}{\numberline {8.5.2.1}main()}{41}{paragraph.8.5.2.1}%
+\contentsline {subsubsection}{\numberline {8.5.3}Variable Documentation}{42}{subsubsection.8.5.3}%
+\contentsline {paragraph}{\numberline {8.5.3.1}info\_arch}{42}{paragraph.8.5.3.1}%
+\contentsline {paragraph}{\numberline {8.5.3.2}info\_compiler}{42}{paragraph.8.5.3.2}%
+\contentsline {paragraph}{\numberline {8.5.3.3}info\_language\_dialect\_default}{42}{paragraph.8.5.3.3}%
+\contentsline {paragraph}{\numberline {8.5.3.4}info\_platform}{42}{paragraph.8.5.3.4}%
+\contentsline {subsection}{\numberline {8.6}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rule\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hashes.txt File Reference}{42}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rule\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Hashes.txt File Reference}{42}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mpi.cpp File Reference}{42}{subsection.8.8}%
+\contentsline {subsubsection}{\numberline {8.8.1}Function Documentation}{43}{subsubsection.8.8.1}%
+\contentsline {paragraph}{\numberline {8.8.1.1}main()}{43}{paragraph.8.8.1.1}%
+\contentsline {subsection}{\numberline {8.9}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mpi.cpp File Reference}{43}{subsection.8.9}%
+\contentsline {subsubsection}{\numberline {8.9.1}Function Documentation}{43}{subsubsection.8.9.1}%
+\contentsline {paragraph}{\numberline {8.9.1.1}main()}{43}{paragraph.8.9.1.1}%
+\contentsline {subsection}{\numberline {8.10}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Check\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Version.c File Reference}{44}{subsection.8.10}%
+\contentsline {subsubsection}{\numberline {8.10.1}Function Documentation}{44}{subsubsection.8.10.1}%
+\contentsline {paragraph}{\numberline {8.10.1.1}main()}{44}{paragraph.8.10.1.1}%
+\contentsline {subsubsection}{\numberline {8.10.2}Variable Documentation}{44}{subsubsection.8.10.2}%
+\contentsline {paragraph}{\numberline {8.10.2.1}ompver\_str}{44}{paragraph.8.10.2.1}%
+\contentsline {subsection}{\numberline {8.11}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Check\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Version.c File Reference}{45}{subsection.8.11}%
+\contentsline {subsubsection}{\numberline {8.11.1}Function Documentation}{45}{subsubsection.8.11.1}%
+\contentsline {paragraph}{\numberline {8.11.1.1}main()}{45}{paragraph.8.11.1.1}%
+\contentsline {subsubsection}{\numberline {8.11.2}Variable Documentation}{45}{subsubsection.8.11.2}%
+\contentsline {paragraph}{\numberline {8.11.2.1}ompver\_str}{45}{paragraph.8.11.2.1}%
+\contentsline {subsection}{\numberline {8.12}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Check\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Version.cpp File Reference}{46}{subsection.8.12}%
+\contentsline {subsubsection}{\numberline {8.12.1}Function Documentation}{46}{subsubsection.8.12.1}%
+\contentsline {paragraph}{\numberline {8.12.1.1}main()}{46}{paragraph.8.12.1.1}%
+\contentsline {subsubsection}{\numberline {8.12.2}Variable Documentation}{46}{subsubsection.8.12.2}%
+\contentsline {paragraph}{\numberline {8.12.2.1}ompver\_str}{46}{paragraph.8.12.2.1}%
+\contentsline {subsection}{\numberline {8.13}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Check\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Version.cpp File Reference}{47}{subsection.8.13}%
+\contentsline {subsubsection}{\numberline {8.13.1}Function Documentation}{47}{subsubsection.8.13.1}%
+\contentsline {paragraph}{\numberline {8.13.1.1}main()}{47}{paragraph.8.13.1.1}%
+\contentsline {subsubsection}{\numberline {8.13.2}Variable Documentation}{47}{subsubsection.8.13.2}%
+\contentsline {paragraph}{\numberline {8.13.2.1}ompver\_str}{47}{paragraph.8.13.2.1}%
+\contentsline {subsection}{\numberline {8.14}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Try\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Flag.c File Reference}{48}{subsection.8.14}%
+\contentsline {subsubsection}{\numberline {8.14.1}Function Documentation}{48}{subsubsection.8.14.1}%
+\contentsline {paragraph}{\numberline {8.14.1.1}main()}{48}{paragraph.8.14.1.1}%
+\contentsline {subsection}{\numberline {8.15}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Try\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Flag.c File Reference}{48}{subsection.8.15}%
+\contentsline {subsubsection}{\numberline {8.15.1}Function Documentation}{49}{subsubsection.8.15.1}%
+\contentsline {paragraph}{\numberline {8.15.1.1}main()}{49}{paragraph.8.15.1.1}%
+\contentsline {subsection}{\numberline {8.16}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Try\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Flag.cpp File Reference}{49}{subsection.8.16}%
+\contentsline {subsubsection}{\numberline {8.16.1}Function Documentation}{49}{subsubsection.8.16.1}%
+\contentsline {paragraph}{\numberline {8.16.1.1}main()}{49}{paragraph.8.16.1.1}%
+\contentsline {subsection}{\numberline {8.17}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Find\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Open\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Try\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Flag.cpp File Reference}{50}{subsection.8.17}%
+\contentsline {subsubsection}{\numberline {8.17.1}Function Documentation}{50}{subsubsection.8.17.1}%
+\contentsline {paragraph}{\numberline {8.17.1.1}main()}{50}{paragraph.8.17.1.1}%
+\contentsline {subsection}{\numberline {8.18}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Target\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Directories.txt File Reference}{50}{subsection.8.18}%
+\contentsline {subsection}{\numberline {8.19}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Target\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Directories.txt File Reference}{50}{subsection.8.19}%
+\contentsline {subsection}{\numberline {8.20}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dart\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Configuration.tcl File Reference}{50}{subsection.8.20}%
+\contentsline {subsection}{\numberline {8.21}build/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Circuit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Optimizer.dir/link.txt File Reference}{50}{subsection.8.21}%
+\contentsline {subsubsection}{\numberline {8.21.1}Variable Documentation}{50}{subsubsection.8.21.1}%
+\contentsline {paragraph}{\numberline {8.21.1.1}rpath}{51}{paragraph.8.21.1.1}%
+\contentsline {paragraph}{\numberline {8.21.1.2}Wl}{51}{paragraph.8.21.1.2}%
+\contentsline {subsection}{\numberline {8.22}build/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/circuit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulator.dir/link.txt File Reference}{51}{subsection.8.22}%
+\contentsline {subsection}{\numberline {8.23}build/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/genetic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Algorithm.dir/link.txt File Reference}{51}{subsection.8.23}%
+\contentsline {subsection}{\numberline {8.24}build/tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/simulator\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.dir/link.txt File Reference}{51}{subsection.8.24}%
+\contentsline {subsection}{\numberline {8.25}build/tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}GA.dir/link.txt File Reference}{51}{subsection.8.25}%
+\contentsline {subsubsection}{\numberline {8.25.1}Variable Documentation}{51}{subsubsection.8.25.1}%
+\contentsline {paragraph}{\numberline {8.25.1.1}rpath}{51}{paragraph.8.25.1.1}%
+\contentsline {paragraph}{\numberline {8.25.1.2}Wl}{51}{paragraph.8.25.1.2}%
+\contentsline {subsection}{\numberline {8.26}build/tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}simulator.dir/link.txt File Reference}{51}{subsection.8.26}%
+\contentsline {subsubsection}{\numberline {8.26.1}Variable Documentation}{51}{subsubsection.8.26.1}%
+\contentsline {paragraph}{\numberline {8.26.1.1}rpath}{52}{paragraph.8.26.1.1}%
+\contentsline {paragraph}{\numberline {8.26.1.2}Wl}{52}{paragraph.8.26.1.2}%
+\contentsline {subsection}{\numberline {8.27}build/tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}validity.dir/link.txt File Reference}{52}{subsection.8.27}%
+\contentsline {subsubsection}{\numberline {8.27.1}Variable Documentation}{52}{subsubsection.8.27.1}%
+\contentsline {paragraph}{\numberline {8.27.1.1}rpath}{52}{paragraph.8.27.1.1}%
+\contentsline {paragraph}{\numberline {8.27.1.2}Wl}{52}{paragraph.8.27.1.2}%
+\contentsline {subsection}{\numberline {8.28}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Circuit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Optimizer.dir/link.txt File Reference}{52}{subsection.8.28}%
+\contentsline {subsubsection}{\numberline {8.28.1}Variable Documentation}{52}{subsubsection.8.28.1}%
+\contentsline {paragraph}{\numberline {8.28.1.1}rpath}{52}{paragraph.8.28.1.1}%
+\contentsline {paragraph}{\numberline {8.28.1.2}Wl}{52}{paragraph.8.28.1.2}%
+\contentsline {subsection}{\numberline {8.29}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/circuit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulator.dir/link.txt File Reference}{53}{subsection.8.29}%
+\contentsline {subsection}{\numberline {8.30}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/genetic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Algorithm.dir/link.txt File Reference}{53}{subsection.8.30}%
+\contentsline {subsection}{\numberline {8.31}tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/simulator\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.dir/link.txt File Reference}{53}{subsection.8.31}%
+\contentsline {subsection}{\numberline {8.32}tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}simulator.dir/link.txt File Reference}{53}{subsection.8.32}%
+\contentsline {subsection}{\numberline {8.33}tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Files/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}validity.dir/link.txt File Reference}{53}{subsection.8.33}%
+\contentsline {subsection}{\numberline {8.34}build/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Testing/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Temporary/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cost\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data.txt File Reference}{53}{subsection.8.34}%
+\contentsline {subsection}{\numberline {8.35}Testing/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Temporary/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cost\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data.txt File Reference}{53}{subsection.8.35}%
+\contentsline {subsection}{\numberline {8.36}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lists.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}txt File Reference}{53}{subsection.8.36}%
+\contentsline {subsection}{\numberline {8.37}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lists.txt File Reference}{53}{subsection.8.37}%
+\contentsline {subsubsection}{\numberline {8.37.1}Function Documentation}{53}{subsubsection.8.37.1}%
+\contentsline {paragraph}{\numberline {8.37.1.1}add\_library()}{53}{paragraph.8.37.1.1}%
+\contentsline {subsection}{\numberline {8.38}tests/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Make\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lists.txt File Reference}{53}{subsection.8.38}%
+\contentsline {subsubsection}{\numberline {8.38.1}Function Documentation}{53}{subsubsection.8.38.1}%
+\contentsline {paragraph}{\numberline {8.38.1.1}project()}{53}{paragraph.8.38.1.1}%
+\contentsline {subsection}{\numberline {8.39}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Circuit.h File Reference}{54}{subsection.8.39}%
+\contentsline {subsection}{\numberline {8.40}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulator.h File Reference}{54}{subsection.8.40}%
+\contentsline {subsubsection}{\numberline {8.40.1}Function Documentation}{55}{subsubsection.8.40.1}%
+\contentsline {paragraph}{\numberline {8.40.1.1}evaluate\_circuit()}{56}{paragraph.8.40.1.1}%
+\contentsline {paragraph}{\numberline {8.40.1.2}evaluate\_circuit\_write()}{56}{paragraph.8.40.1.2}%
+\contentsline {subsection}{\numberline {8.41}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Unit.h File Reference}{56}{subsection.8.41}%
+\contentsline {subsection}{\numberline {8.42}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Genetic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Algorithm.h File Reference}{57}{subsection.8.42}%
+\contentsline {subsection}{\numberline {8.43}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{58}{subsection.8.43}%
+\contentsline {subsection}{\numberline {8.44}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{58}{subsection.8.44}%
+\contentsline {subsection}{\numberline {8.45}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Circuit.cpp File Reference}{58}{subsection.8.45}%
+\contentsline {subsection}{\numberline {8.46}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Simulator.cpp File Reference}{59}{subsection.8.46}%
+\contentsline {subsubsection}{\numberline {8.46.1}Detailed Description}{60}{subsubsection.8.46.1}%
+\contentsline {subsubsection}{\numberline {8.46.2}Function Documentation}{60}{subsubsection.8.46.2}%
+\contentsline {paragraph}{\numberline {8.46.2.1}evaluate\_circuit()}{60}{paragraph.8.46.2.1}%
+\contentsline {paragraph}{\numberline {8.46.2.2}evaluate\_circuit\_write()}{61}{paragraph.8.46.2.2}%
+\contentsline {subsection}{\numberline {8.47}src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Genetic\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Algorithm.cpp File Reference}{61}{subsection.8.47}%
+\contentsline {subsubsection}{\numberline {8.47.1}Function Documentation}{62}{subsubsection.8.47.1}%
+\contentsline {paragraph}{\numberline {8.47.1.1}binary\_search()}{62}{paragraph.8.47.1.1}%
+\contentsline {paragraph}{\numberline {8.47.1.2}partition()}{62}{paragraph.8.47.1.2}%
+\contentsline {paragraph}{\numberline {8.47.1.3}quickSort()}{63}{paragraph.8.47.1.3}%
+\contentsline {subsection}{\numberline {8.48}src/graph.py File Reference}{63}{subsection.8.48}%
+\contentsline {subsection}{\numberline {8.49}src/graph\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}oneline.py File Reference}{64}{subsection.8.49}%
+\contentsline {subsection}{\numberline {8.50}src/main.cpp File Reference}{64}{subsection.8.50}%
+\contentsline {subsubsection}{\numberline {8.50.1}Function Documentation}{65}{subsubsection.8.50.1}%
+\contentsline {paragraph}{\numberline {8.50.1.1}main()}{65}{paragraph.8.50.1.1}%
+\contentsline {subsection}{\numberline {8.51}tests/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}GA.cpp File Reference}{65}{subsection.8.51}%
+\contentsline {subsubsection}{\numberline {8.51.1}Function Documentation}{66}{subsubsection.8.51.1}%
+\contentsline {paragraph}{\numberline {8.51.1.1}main()}{66}{paragraph.8.51.1.1}%
+\contentsline {paragraph}{\numberline {8.51.1.2}test\_circuit10()}{66}{paragraph.8.51.1.2}%
+\contentsline {paragraph}{\numberline {8.51.1.3}test\_circuit20()}{67}{paragraph.8.51.1.3}%
+\contentsline {paragraph}{\numberline {8.51.1.4}test\_circuit5()}{67}{paragraph.8.51.1.4}%
+\contentsline {subsection}{\numberline {8.52}tests/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}simulator.cpp File Reference}{67}{subsection.8.52}%
+\contentsline {subsubsection}{\numberline {8.52.1}Function Documentation}{67}{subsubsection.8.52.1}%
+\contentsline {paragraph}{\numberline {8.52.1.1}isClose()}{68}{paragraph.8.52.1.1}%
+\contentsline {paragraph}{\numberline {8.52.1.2}main()}{68}{paragraph.8.52.1.2}%
+\contentsline {paragraph}{\numberline {8.52.1.3}test\_calculate\_reward()}{68}{paragraph.8.52.1.3}%
+\contentsline {paragraph}{\numberline {8.52.1.4}test\_instantiate\_circuit\_units()}{68}{paragraph.8.52.1.4}%
+\contentsline {paragraph}{\numberline {8.52.1.5}test\_small\_circuit()}{68}{paragraph.8.52.1.5}%
+\contentsline {subsection}{\numberline {8.53}tests/test\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}validity.cpp File Reference}{69}{subsection.8.53}%
+\contentsline {subsubsection}{\numberline {8.53.1}Function Documentation}{69}{subsubsection.8.53.1}%
+\contentsline {paragraph}{\numberline {8.53.1.1}main()}{69}{paragraph.8.53.1.1}%
+\contentsline {paragraph}{\numberline {8.53.1.2}test\_circuit()}{69}{paragraph.8.53.1.2}%
+\contentsline {section}{Index}{71}{section*.90}%

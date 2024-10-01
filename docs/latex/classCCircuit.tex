@@ -1,0 +1,93 @@
+\hypertarget{classCCircuit}{}\doxysubsection{C\+Circuit Class Reference}
+\label{classCCircuit}\index{CCircuit@{CCircuit}}
+
+
+{\ttfamily \#include $<$C\+Circuit.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCCircuit_a9f8b172e4d8dc55c7d03dd344ad86044}{C\+Circuit}} (int num\+\_\+units)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classCCircuit}{C\+Circuit}} Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCCircuit_ab3b4f708f29772030e4b1a5fb3c3b952}{$\sim$\+C\+Circuit}} ()
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classCCircuit}{C\+Circuit}} Destructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCCircuit_a6096db6a2fa5ac70555b1b40c98d4d4f}{check\+\_\+validity}} (int $\ast$circuit\+\_\+vector)
+\begin{DoxyCompactList}\small\item\em Checks the validity of the circuit. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+Header for the circuit class
+
+This header defines the circuit class and its associated functions 
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCCircuit_a9f8b172e4d8dc55c7d03dd344ad86044}\label{classCCircuit_a9f8b172e4d8dc55c7d03dd344ad86044}} 
+\index{CCircuit@{CCircuit}!CCircuit@{CCircuit}}
+\index{CCircuit@{CCircuit}!CCircuit@{CCircuit}}
+\doxyparagraph{\texorpdfstring{CCircuit()}{CCircuit()}}
+{\footnotesize\ttfamily C\+Circuit\+::\+C\+Circuit (\begin{DoxyParamCaption}\item[{int}]{vector\+\_\+size }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classCCircuit}{C\+Circuit}} Constructor. 
+
+This function initializes the number of units in the circuit and dynamically allocates memory for marks array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em vector\+\_\+size} & The size of the circuit vector. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCCircuit_ab3b4f708f29772030e4b1a5fb3c3b952}\label{classCCircuit_ab3b4f708f29772030e4b1a5fb3c3b952}} 
+\index{CCircuit@{CCircuit}!````~CCircuit@{$\sim$CCircuit}}
+\index{````~CCircuit@{$\sim$CCircuit}!CCircuit@{CCircuit}}
+\doxyparagraph{\texorpdfstring{$\sim$CCircuit()}{~CCircuit()}}
+{\footnotesize\ttfamily C\+Circuit\+::$\sim$\+C\+Circuit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classCCircuit}{C\+Circuit}} Destructor. 
+
+This function deletes the dynamically allocated memory for marks array. 
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCCircuit_a6096db6a2fa5ac70555b1b40c98d4d4f}\label{classCCircuit_a6096db6a2fa5ac70555b1b40c98d4d4f}} 
+\index{CCircuit@{CCircuit}!check\_validity@{check\_validity}}
+\index{check\_validity@{check\_validity}!CCircuit@{CCircuit}}
+\doxyparagraph{\texorpdfstring{check\_validity()}{check\_validity()}}
+{\footnotesize\ttfamily bool C\+Circuit\+::check\+\_\+validity (\begin{DoxyParamCaption}\item[{int $\ast$}]{circuit\+\_\+vector }\end{DoxyParamCaption})}
+
+
+
+Checks the validity of the circuit. 
+
+Check if the circuit is valid.
+
+This function checks the validity of the circuit based on the following conditions\+:
+\begin{DoxyEnumerate}
+\item Every unit must be accessible from the feed.
+\item Every unit must have a route forward to both of the outlet streams.
+\item There should be no self-\/recycle.
+\item The destination for both products from a unit should not be the same unit.
+\item The destination id of each unit must be between 0 to num\+\_\+units + 1. The first destination must not be tailings, the second destination must not be concentrate.
+\end{DoxyEnumerate}
+
+\begin{DoxyReturn}{Returns}
+True if the circuit is valid, false otherwise.
+\end{DoxyReturn}
+This function checks for various conditions for circuit validity, including unit accessibility from the feed, route forward to both of the outlet streams, no self-\/recycle, different destinations, and appropriate destination ID.
+
+
+\begin{DoxyParams}{Parameters}
+{\em circuit\+\_\+vector} & A pointer to an array representing the circuit.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the circuit is valid, false otherwise. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{CCircuit_8h}{C\+Circuit.\+h}}\item 
+src/\mbox{\hyperlink{CCircuit_8cpp}{C\+Circuit.\+cpp}}\end{DoxyCompactItemize}

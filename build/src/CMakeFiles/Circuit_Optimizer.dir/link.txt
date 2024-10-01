@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp  -pthread CMakeFiles/Circuit_Optimizer.dir/main.cpp.o  -o ../bin/Circuit_Optimizer  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib ../lib/libgeneticAlgorithm.a libcircuitSimulator.a /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 

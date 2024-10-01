@@ -1,0 +1,752 @@
+\begin{theindex}
+
+  \item {\_\_pad0\_\_}
+    \subitem {CMakeCache.txt}, \hyperpage{34}
+  \item {$\sim$CCircuit}
+    \subitem {CCircuit}, \hyperpage{13}
+  \item {$\sim$CUnit}
+    \subitem {CUnit}, \hyperpage{17}
+  \item {$\sim$GA}
+    \subitem {GA}, \hyperpage{22}
+
+  \indexspace
+
+  \item {add\_library}
+    \subitem {CMakeLists.txt}, \hyperpage{54}
+  \item {Algorithm\_Parameters}, \hyperpage{9}
+    \subitem {circuit\_size}, \hyperpage{10}
+    \subitem {communicate\_interval}, \hyperpage{10}
+    \subitem {crossover\_rate}, \hyperpage{10}
+    \subitem {max\_iter\_before\_fail}, \hyperpage{10}
+    \subitem {max\_iter\_without\_progress}, \hyperpage{10}
+    \subitem {max\_iterations}, \hyperpage{11}
+    \subitem {mutation\_rate}, \hyperpage{11}
+    \subitem {mutation\_rate\_increase\_factor}, \hyperpage{11}
+    \subitem {mutation\_scheme}, \hyperpage{11}
+    \subitem {mutation\_size}, \hyperpage{11}
+    \subitem {parallel\_mpi}, \hyperpage{11}
+    \subitem {parent\_comm\_size\_parallel}, \hyperpage{11}
+    \subitem {parent\_pool\_size}, \hyperpage{11}
+    \subitem {population\_size}, \hyperpage{11}
+    \subitem {selection\_scheme}, \hyperpage{11}
+    \subitem {tol}, \hyperpage{11}
+    \subitem {tournament\_size}, \hyperpage{12}
+    \subitem {tournament\_size\_parallel}, \hyperpage{12}
+    \subitem {write\_interval}, \hyperpage{12}
+  \item {ARCHITECTURE\_ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}, \hyperpage{37}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}, \hyperpage{41}
+  \item {arrowhead}
+    \subitem {graph}, \hyperpage{5}
+    \subitem {graph\_oneline}, \hyperpage{7}
+
+  \indexspace
+
+  \item {best\_circuit}
+    \subitem {GA}, \hyperpage{29}
+  \item {best\_fitness}
+    \subitem {GA}, \hyperpage{29}
+  \item {binary\_search}
+    \subitem {Genetic\_Algorithm.cpp}, \hyperpage{63}
+  \item {build/CMakeCache.txt}, \hyperpage{34}
+  \item {build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c}, 
+		\hyperpage{34}
+  \item {build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{39}
+  \item {build/CMakeFiles/CMakeRuleHashes.txt}, \hyperpage{43}
+  \item {build/CMakeFiles/FindMPI/test\_mpi.cpp}, \hyperpage{43}
+  \item {build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c}, 
+		\hyperpage{45}
+  \item {build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp}, 
+		\hyperpage{47}
+  \item {build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c}, \hyperpage{49}
+  \item {build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp}, \hyperpage{50}
+  \item {build/CMakeFiles/TargetDirectories.txt}, \hyperpage{51}
+  \item {build/DartConfiguration.tcl}, \hyperpage{51}
+  \item {build/src/CMakeFiles/Circuit\_Optimizer.dir/link.txt}, 
+		\hyperpage{51}
+  \item {build/src/CMakeFiles/circuitSimulator.dir/link.txt}, 
+		\hyperpage{52}
+  \item {build/src/CMakeFiles/geneticAlgorithm.dir/link.txt}, 
+		\hyperpage{52}
+  \item {build/Testing/Temporary/CTestCostData.txt}, \hyperpage{54}
+  \item {build/tests/CMakeFiles/simulator\_tests.dir/link.txt}, 
+		\hyperpage{52}
+  \item {build/tests/CMakeFiles/test\_GA.dir/link.txt}, \hyperpage{52}
+  \item {build/tests/CMakeFiles/test\_simulator.dir/link.txt}, 
+		\hyperpage{52}
+  \item {build/tests/CMakeFiles/test\_validity.dir/link.txt}, 
+		\hyperpage{53}
+
+  \indexspace
+
+  \item {C\_DIALECT}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}, \hyperpage{37}
+  \item {c\_ger\_flow\_out}
+    \subitem {CUnit}, \hyperpage{17}
+  \item {c\_waste\_flow\_out}
+    \subitem {CUnit}, \hyperpage{17}
+  \item {calculate\_reward}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {CCircuit}, \hyperpage{12}
+    \subitem {$\sim$CCircuit}, \hyperpage{13}
+    \subitem {CCircuit}, \hyperpage{12}
+    \subitem {check\_validity}, \hyperpage{13}
+  \item {check\_same}
+    \subitem {GA}, \hyperpage{22}
+  \item {check\_validity}
+    \subitem {CCircuit}, \hyperpage{13}
+  \item {circuit\_size}
+    \subitem {Algorithm\_Parameters}, \hyperpage{10}
+  \item {cleanup}
+    \subitem {graph}, \hyperpage{5}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {CMakeCache.txt}
+    \subitem {\_\_pad0\_\_}, \hyperpage{34}
+    \subitem {MPI\_CXX\_LINK\_FLAGS}, \hyperpage{34}
+    \subitem {OpenMP\_C\_FLAGS}, \hyperpage{34}
+    \subitem {OpenMP\_gomp\_LIBRARY}, \hyperpage{34}
+  \item {CMakeCCompilerId.c}
+    \subitem {ARCHITECTURE\_ID}, \hyperpage{35}, \hyperpage{37}
+    \subitem {C\_DIALECT}, \hyperpage{35}, \hyperpage{37}
+    \subitem {COMPILER\_ID}, \hyperpage{35}, \hyperpage{37}
+    \subitem {DEC}, \hyperpage{35}, \hyperpage{37}
+    \subitem {HEX}, \hyperpage{35}, \hyperpage{37}
+    \subitem {info\_arch}, \hyperpage{36}, \hyperpage{38}
+    \subitem {info\_compiler}, \hyperpage{36}, \hyperpage{38}
+    \subitem {info\_language\_dialect\_default}, \hyperpage{36}, 
+		\hyperpage{38}
+    \subitem {info\_platform}, \hyperpage{36}, \hyperpage{38}
+    \subitem {main}, \hyperpage{36}, \hyperpage{38}
+    \subitem {PLATFORM\_ID}, \hyperpage{35}, \hyperpage{37}
+    \subitem {STRINGIFY}, \hyperpage{35}, \hyperpage{38}
+    \subitem {STRINGIFY\_HELPER}, \hyperpage{36}, \hyperpage{38}
+  \item {CMakeCXXCompilerId.cpp}
+    \subitem {ARCHITECTURE\_ID}, \hyperpage{39}, \hyperpage{41}
+    \subitem {COMPILER\_ID}, \hyperpage{39}, \hyperpage{41}
+    \subitem {CXX\_STD}, \hyperpage{39}, \hyperpage{41}
+    \subitem {DEC}, \hyperpage{39}, \hyperpage{42}
+    \subitem {HEX}, \hyperpage{39}, \hyperpage{42}
+    \subitem {info\_arch}, \hyperpage{40}, \hyperpage{43}
+    \subitem {info\_compiler}, \hyperpage{40}, \hyperpage{43}
+    \subitem {info\_language\_dialect\_default}, \hyperpage{40}, 
+		\hyperpage{43}
+    \subitem {info\_platform}, \hyperpage{41}, \hyperpage{43}
+    \subitem {main}, \hyperpage{40}, \hyperpage{42}
+    \subitem {PLATFORM\_ID}, \hyperpage{40}, \hyperpage{42}
+    \subitem {STRINGIFY}, \hyperpage{40}, \hyperpage{42}
+    \subitem {STRINGIFY\_HELPER}, \hyperpage{40}, \hyperpage{42}
+  \item {CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c}, 
+		\hyperpage{36}
+  \item {CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp}, 
+		\hyperpage{41}
+  \item {CMakeFiles/CMakeRuleHashes.txt}, \hyperpage{43}
+  \item {CMakeFiles/FindMPI/test\_mpi.cpp}, \hyperpage{44}
+  \item {CMakeFiles/FindOpenMP/OpenMPCheckVersion.c}, \hyperpage{46}
+  \item {CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp}, \hyperpage{48}
+  \item {CMakeFiles/FindOpenMP/OpenMPTryFlag.c}, \hyperpage{49}
+  \item {CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp}, \hyperpage{51}
+  \item {CMakeFiles/TargetDirectories.txt}, \hyperpage{51}
+  \item {CMakeLists.txt}, \hyperpage{54}
+    \subitem {add\_library}, \hyperpage{54}
+    \subitem {project}, \hyperpage{54}
+  \item {color}
+    \subitem {graph}, \hyperpage{5}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {communicate\_interval}
+    \subitem {Algorithm\_Parameters}, \hyperpage{10}
+  \item {COMPILER\_ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}, \hyperpage{37}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}, \hyperpage{41}
+  \item {concentrate\_feed\_list}
+    \subitem {CUnit}, \hyperpage{17}
+  \item {concentrate\_list}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {copy\_list}
+    \subitem {graph}, \hyperpage{5}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {copy\_parent\_to\_child}
+    \subitem {GA}, \hyperpage{22}
+  \item {crossover\_rate}
+    \subitem {Algorithm\_Parameters}, \hyperpage{10}
+  \item {CSimulator}, \hyperpage{14}
+    \subitem {calculate\_reward}, \hyperpage{15}
+    \subitem {CSimulator}, \hyperpage{14}
+    \subitem {get\_final\_concentrate\_list}, \hyperpage{15}
+    \subitem {get\_final\_tail\_list}, \hyperpage{15}
+    \subitem {get\_total\_concentrate\_ger}, \hyperpage{15}
+    \subitem {get\_total\_concentrate\_waste}, \hyperpage{15}
+    \subitem {get\_total\_tail\_ger}, \hyperpage{15}
+    \subitem {get\_total\_tail\_waste}, \hyperpage{15}
+    \subitem {get\_units\_vector}, \hyperpage{15}
+    \subitem {solve}, \hyperpage{15}
+    \subitem {write\_vector\_values\_to\_array}, \hyperpage{16}
+  \item {CSimulator.cpp}
+    \subitem {evaluate\_circuit}, \hyperpage{61}
+    \subitem {evaluate\_circuit\_write}, \hyperpage{62}
+  \item {CSimulator.h}
+    \subitem {evaluate\_circuit}, \hyperpage{56}
+    \subitem {evaluate\_circuit\_write}, \hyperpage{57}
+  \item {CUnit}, \hyperpage{16}
+    \subitem {$\sim$CUnit}, \hyperpage{17}
+    \subitem {c\_ger\_flow\_out}, \hyperpage{17}
+    \subitem {c\_waste\_flow\_out}, \hyperpage{17}
+    \subitem {concentrate\_feed\_list}, \hyperpage{17}
+    \subitem {concentrate\_list}, \hyperpage{18}
+    \subitem {CUnit}, \hyperpage{17}
+    \subitem {ger\_flow\_in}, \hyperpage{18}
+    \subitem {ger\_flow\_in\_old}, \hyperpage{18}
+    \subitem {ger\_recovery}, \hyperpage{18}
+    \subitem {get\_is\_feed}, \hyperpage{17}
+    \subitem {get\_unit\_id}, \hyperpage{17}
+    \subitem {t\_ger\_flow\_out}, \hyperpage{18}
+    \subitem {t\_waste\_flow\_out}, \hyperpage{18}
+    \subitem {tails\_feed\_list}, \hyperpage{18}
+    \subitem {tails\_list}, \hyperpage{18}
+    \subitem {waste\_flow\_in}, \hyperpage{18}
+    \subitem {waste\_flow\_in\_old}, \hyperpage{18}
+    \subitem {waste\_recovery}, \hyperpage{18}
+  \item {cur\_iter}
+    \subitem {GA}, \hyperpage{29}
+  \item {CXX\_STD}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}, \hyperpage{41}
+
+  \indexspace
+
+  \item {DEC}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}, \hyperpage{37}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}, \hyperpage{42}
+
+  \indexspace
+
+  \item {end\_node}
+    \subitem {graph}, \hyperpage{5}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {evaluate\_circuit}
+    \subitem {CSimulator.cpp}, \hyperpage{61}
+    \subitem {CSimulator.h}, \hyperpage{56}
+  \item {evaluate\_circuit\_write}
+    \subitem {CSimulator.cpp}, \hyperpage{62}
+    \subitem {CSimulator.h}, \hyperpage{57}
+
+  \indexspace
+
+  \item {F0\_ger}
+    \subitem {SimulationParameters}, \hyperpage{32}
+  \item {F0\_waste}
+    \subitem {SimulationParameters}, \hyperpage{32}
+  \item {file\_write\_buffer}
+    \subitem {GA}, \hyperpage{29}
+  \item {fitness\_parents}
+    \subitem {GA}, \hyperpage{29}
+  \item {fitness\_population}
+    \subitem {GA}, \hyperpage{30}
+  \item {format}
+    \subitem {graph}, \hyperpage{5}
+    \subitem {graph\_oneline}, \hyperpage{8}
+
+  \indexspace
+
+  \item {GA}, \hyperpage{19}
+    \subitem {$\sim$GA}, \hyperpage{22}
+    \subitem {best\_circuit}, \hyperpage{29}
+    \subitem {best\_fitness}, \hyperpage{29}
+    \subitem {check\_same}, \hyperpage{22}
+    \subitem {copy\_parent\_to\_child}, \hyperpage{22}
+    \subitem {cur\_iter}, \hyperpage{29}
+    \subitem {file\_write\_buffer}, \hyperpage{29}
+    \subitem {fitness\_parents}, \hyperpage{29}
+    \subitem {fitness\_population}, \hyperpage{30}
+    \subitem {GA}, \hyperpage{21}
+    \subitem {generalized\_copy}, \hyperpage{22}
+    \subitem {generate\_child}, \hyperpage{23}
+    \subitem {get\_idx}, \hyperpage{23}
+    \subitem {get\_idx\_node}, \hyperpage{23}
+    \subitem {get\_node\_num}, \hyperpage{24}
+    \subitem {in\_place\_sort}, \hyperpage{24}
+    \subitem {mate\_count\_all}, \hyperpage{30}
+    \subitem {mpi\_reduction\_wrapper}, \hyperpage{24}
+    \subitem {mutation}, \hyperpage{24}
+    \subitem {not\_improving\_count}, \hyperpage{30}
+    \subitem {nottouched}, \hyperpage{30}
+    \subitem {old\_best\_fitness}, \hyperpage{30}
+    \subitem {optimize}, \hyperpage{26}
+    \subitem {optimize\_parallel}, \hyperpage{26}
+    \subitem {optimize\_without\_mpi}, \hyperpage{26}
+    \subitem {parameters}, \hyperpage{30}
+    \subitem {parents}, \hyperpage{30}
+    \subitem {population}, \hyperpage{30}
+    \subitem {population\_idex\_list}, \hyperpage{31}
+    \subitem {rank\_func}, \hyperpage{26}
+    \subitem {rank\_selection}, \hyperpage{26}
+    \subitem {rank\_sum}, \hyperpage{31}
+    \subitem {rank\_val}, \hyperpage{31}
+    \subitem {reinitialize\_pil}, \hyperpage{26}
+    \subitem {roulette\_selection}, \hyperpage{27}
+    \subitem {roulette\_selection\_parallel}, \hyperpage{27}
+    \subitem {roulette\_sum}, \hyperpage{31}
+    \subitem {same\_mate}, \hyperpage{31}
+    \subitem {select\_mate}, \hyperpage{27}
+    \subitem {selection}, \hyperpage{27}
+    \subitem {set\_best\_to\_parent}, \hyperpage{27}
+    \subitem {setup}, \hyperpage{27}
+    \subitem {setup\_parallel}, \hyperpage{27}
+    \subitem {sim\_params}, \hyperpage{31}
+    \subitem {size\_per\_cir}, \hyperpage{31}
+    \subitem {tournament\_selection}, \hyperpage{27}
+    \subitem {tournament\_selection\_parallel}, \hyperpage{28}
+    \subitem {two\_point\_crossover}, \hyperpage{28}
+    \subitem {update\_best}, \hyperpage{29}
+    \subitem {vec\_size\_parent}, \hyperpage{31}
+    \subitem {vec\_size\_population}, \hyperpage{32}
+    \subitem {write\_to\_file}, \hyperpage{29}
+  \item {generalized\_copy}
+    \subitem {GA}, \hyperpage{22}
+  \item {generate\_child}
+    \subitem {GA}, \hyperpage{23}
+  \item {Genetic\_Algorithm.cpp}
+    \subitem {binary\_search}, \hyperpage{63}
+    \subitem {partition}, \hyperpage{63}
+    \subitem {quickSort}, \hyperpage{63}
+  \item {ger\_flow\_in}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {ger\_flow\_in\_old}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {ger\_recovery}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {ger\_reward}
+    \subitem {SimulationParameters}, \hyperpage{33}
+  \item {get\_final\_concentrate\_list}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {get\_final\_tail\_list}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {get\_idx}
+    \subitem {GA}, \hyperpage{23}
+  \item {get\_idx\_node}
+    \subitem {GA}, \hyperpage{23}
+  \item {get\_is\_feed}
+    \subitem {CUnit}, \hyperpage{17}
+  \item {get\_node\_num}
+    \subitem {GA}, \hyperpage{24}
+  \item {get\_total\_concentrate\_ger}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {get\_total\_concentrate\_waste}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {get\_total\_tail\_ger}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {get\_total\_tail\_waste}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {get\_unit\_id}
+    \subitem {CUnit}, \hyperpage{17}
+  \item {get\_units\_vector}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {graph}, \hyperpage{4}
+    \subitem {arrowhead}, \hyperpage{5}
+    \subitem {cleanup}, \hyperpage{5}
+    \subitem {color}, \hyperpage{5}
+    \subitem {copy\_list}, \hyperpage{5}
+    \subitem {end\_node}, \hyperpage{5}
+    \subitem {format}, \hyperpage{5}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{8}
+    \subitem {headport}, \hyperpage{6}
+    \subitem {height}, \hyperpage{6}
+    \subitem {index}, \hyperpage{6}
+    \subitem {label}, \hyperpage{6}
+    \subitem {largest}, \hyperpage{6}
+    \subitem {node\_name}, \hyperpage{6}
+    \subitem {rankdir}, \hyperpage{6}
+    \subitem {read\_inputs}, \hyperpage{5}
+    \subitem {second\_largest}, \hyperpage{6}
+    \subitem {shape}, \hyperpage{6}
+    \subitem {tailport}, \hyperpage{6}
+    \subitem {True}, \hyperpage{7}
+    \subitem {width}, \hyperpage{7}
+  \item {graph\_oneline}, \hyperpage{7}
+    \subitem {arrowhead}, \hyperpage{7}
+    \subitem {cleanup}, \hyperpage{8}
+    \subitem {color}, \hyperpage{8}
+    \subitem {copy\_list}, \hyperpage{8}
+    \subitem {end\_node}, \hyperpage{8}
+    \subitem {format}, \hyperpage{8}
+    \subitem {graph}, \hyperpage{8}
+    \subitem {headport}, \hyperpage{8}
+    \subitem {height}, \hyperpage{8}
+    \subitem {index}, \hyperpage{8}
+    \subitem {int\_list}, \hyperpage{8}
+    \subitem {largest}, \hyperpage{8}
+    \subitem {node\_name}, \hyperpage{9}
+    \subitem {rankdir}, \hyperpage{9}
+    \subitem {read\_inputs}, \hyperpage{7}
+    \subitem {second\_largest}, \hyperpage{9}
+    \subitem {shape}, \hyperpage{9}
+    \subitem {tailport}, \hyperpage{9}
+    \subitem {True}, \hyperpage{9}
+    \subitem {width}, \hyperpage{9}
+
+  \indexspace
+
+  \item {headport}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {height}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {HEX}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}, \hyperpage{37}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{39}, \hyperpage{42}
+
+  \indexspace
+
+  \item {in\_place\_sort}
+    \subitem {GA}, \hyperpage{24}
+  \item {include/CCircuit.h}, \hyperpage{55}
+  \item {include/CSimulator.h}, \hyperpage{55}
+  \item {include/CUnit.h}, \hyperpage{57}
+  \item {include/Genetic\_Algorithm.h}, \hyperpage{58}
+  \item {index}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {info\_arch}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}, \hyperpage{38}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{40}, \hyperpage{43}
+  \item {info\_compiler}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}, \hyperpage{38}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{40}, \hyperpage{43}
+  \item {info\_language\_dialect\_default}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}, \hyperpage{38}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{40}, \hyperpage{43}
+  \item {info\_platform}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}, \hyperpage{38}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{41}, \hyperpage{43}
+  \item {int\_list}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {isClose}
+    \subitem {test\_simulator.cpp}, \hyperpage{68}
+
+  \indexspace
+
+  \item {k\_ger}
+    \subitem {SimulationParameters}, \hyperpage{33}
+  \item {k\_waste}
+    \subitem {SimulationParameters}, \hyperpage{33}
+
+  \indexspace
+
+  \item {label}
+    \subitem {graph}, \hyperpage{6}
+  \item {largest}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{8}
+  \item {LICENSE.md}, \hyperpage{59}
+  \item {link.txt}
+    \subitem {rpath}, \hyperpage{51--53}
+    \subitem {Wl}, \hyperpage{52, 53}
+
+  \indexspace
+
+  \item {main}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}, \hyperpage{38}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{40}, \hyperpage{42}
+    \subitem {main.cpp}, \hyperpage{66}
+    \subitem {OpenMPCheckVersion.c}, \hyperpage{45, 46}
+    \subitem {OpenMPCheckVersion.cpp}, \hyperpage{47, 48}
+    \subitem {OpenMPTryFlag.c}, \hyperpage{49, 50}
+    \subitem {OpenMPTryFlag.cpp}, \hyperpage{50, 51}
+    \subitem {test\_GA.cpp}, \hyperpage{67}
+    \subitem {test\_mpi.cpp}, \hyperpage{44}
+    \subitem {test\_simulator.cpp}, \hyperpage{69}
+    \subitem {test\_validity.cpp}, \hyperpage{70}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{66}
+  \item {mate\_count\_all}
+    \subitem {GA}, \hyperpage{30}
+  \item {max\_iter}
+    \subitem {SimulationParameters}, \hyperpage{33}
+  \item {max\_iter\_before\_fail}
+    \subitem {Algorithm\_Parameters}, \hyperpage{10}
+  \item {max\_iter\_without\_progress}
+    \subitem {Algorithm\_Parameters}, \hyperpage{10}
+  \item {max\_iterations}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {min\_flowrate}
+    \subitem {SimulationParameters}, \hyperpage{33}
+  \item {MPI\_CXX\_LINK\_FLAGS}
+    \subitem {CMakeCache.txt}, \hyperpage{34}
+  \item {mpi\_reduction\_wrapper}
+    \subitem {GA}, \hyperpage{24}
+  \item {mutation}
+    \subitem {GA}, \hyperpage{24}
+  \item {mutation\_rate}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {mutation\_rate\_increase\_factor}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {mutation\_scheme}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {mutation\_size}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+
+  \indexspace
+
+  \item {node\_name}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{9}
+  \item {not\_improving\_count}
+    \subitem {GA}, \hyperpage{30}
+  \item {nottouched}
+    \subitem {GA}, \hyperpage{30}
+
+  \indexspace
+
+  \item {old\_best\_fitness}
+    \subitem {GA}, \hyperpage{30}
+  \item {ompver\_str}
+    \subitem {OpenMPCheckVersion.c}, \hyperpage{45, 46}
+    \subitem {OpenMPCheckVersion.cpp}, \hyperpage{47, 48}
+  \item {OpenMP\_C\_FLAGS}
+    \subitem {CMakeCache.txt}, \hyperpage{34}
+  \item {OpenMP\_gomp\_LIBRARY}
+    \subitem {CMakeCache.txt}, \hyperpage{34}
+  \item {OpenMPCheckVersion.c}
+    \subitem {main}, \hyperpage{45, 46}
+    \subitem {ompver\_str}, \hyperpage{45, 46}
+  \item {OpenMPCheckVersion.cpp}
+    \subitem {main}, \hyperpage{47, 48}
+    \subitem {ompver\_str}, \hyperpage{47, 48}
+  \item {OpenMPTryFlag.c}
+    \subitem {main}, \hyperpage{49, 50}
+  \item {OpenMPTryFlag.cpp}
+    \subitem {main}, \hyperpage{50, 51}
+  \item {optimize}
+    \subitem {GA}, \hyperpage{26}
+  \item {optimize\_parallel}
+    \subitem {GA}, \hyperpage{26}
+  \item {optimize\_without\_mpi}
+    \subitem {GA}, \hyperpage{26}
+
+  \indexspace
+
+  \item {parallel\_mpi}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {parameters}
+    \subitem {GA}, \hyperpage{30}
+  \item {parent\_comm\_size\_parallel}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {parent\_pool\_size}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {parents}
+    \subitem {GA}, \hyperpage{30}
+  \item {partition}
+    \subitem {Genetic\_Algorithm.cpp}, \hyperpage{63}
+  \item {phi}
+    \subitem {SimulationParameters}, \hyperpage{33}
+  \item {PLATFORM\_ID}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}, \hyperpage{37}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{40}, \hyperpage{42}
+  \item {population}
+    \subitem {GA}, \hyperpage{30}
+  \item {population\_idex\_list}
+    \subitem {GA}, \hyperpage{31}
+  \item {population\_size}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {project}
+    \subitem {CMakeLists.txt}, \hyperpage{54}
+
+  \indexspace
+
+  \item {quickSort}
+    \subitem {Genetic\_Algorithm.cpp}, \hyperpage{63}
+
+  \indexspace
+
+  \item {rank\_func}
+    \subitem {GA}, \hyperpage{26}
+  \item {rank\_selection}
+    \subitem {GA}, \hyperpage{26}
+  \item {rank\_sum}
+    \subitem {GA}, \hyperpage{31}
+  \item {rank\_val}
+    \subitem {GA}, \hyperpage{31}
+  \item {rankdir}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{9}
+  \item {read\_inputs}
+    \subitem {graph}, \hyperpage{5}
+    \subitem {graph\_oneline}, \hyperpage{7}
+  \item {README.md}, \hyperpage{59}
+  \item {reinitialize\_pil}
+    \subitem {GA}, \hyperpage{26}
+  \item {rho}
+    \subitem {SimulationParameters}, \hyperpage{33}
+  \item {roulette\_selection}
+    \subitem {GA}, \hyperpage{27}
+  \item {roulette\_selection\_parallel}
+    \subitem {GA}, \hyperpage{27}
+  \item {roulette\_sum}
+    \subitem {GA}, \hyperpage{31}
+  \item {rpath}
+    \subitem {link.txt}, \hyperpage{51--53}
+
+  \indexspace
+
+  \item {same\_mate}
+    \subitem {GA}, \hyperpage{31}
+  \item {second\_largest}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{9}
+  \item {select\_mate}
+    \subitem {GA}, \hyperpage{27}
+  \item {selection}
+    \subitem {GA}, \hyperpage{27}
+  \item {selection\_scheme}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {set\_best\_to\_parent}
+    \subitem {GA}, \hyperpage{27}
+  \item {setup}
+    \subitem {GA}, \hyperpage{27}
+  \item {setup\_parallel}
+    \subitem {GA}, \hyperpage{27}
+  \item {shape}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{9}
+  \item {sim\_params}
+    \subitem {GA}, \hyperpage{31}
+  \item {SimulationParameters}, \hyperpage{32}
+    \subitem {F0\_ger}, \hyperpage{32}
+    \subitem {F0\_waste}, \hyperpage{32}
+    \subitem {ger\_reward}, \hyperpage{33}
+    \subitem {k\_ger}, \hyperpage{33}
+    \subitem {k\_waste}, \hyperpage{33}
+    \subitem {max\_iter}, \hyperpage{33}
+    \subitem {min\_flowrate}, \hyperpage{33}
+    \subitem {phi}, \hyperpage{33}
+    \subitem {rho}, \hyperpage{33}
+    \subitem {volume}, \hyperpage{33}
+    \subitem {waste\_reward}, \hyperpage{33}
+  \item {size\_per\_cir}
+    \subitem {GA}, \hyperpage{31}
+  \item {solve}
+    \subitem {CSimulator}, \hyperpage{15}
+  \item {src/CCircuit.cpp}, \hyperpage{59}
+  \item {src/CMakeFiles/Circuit\_Optimizer.dir/link.txt}, 
+		\hyperpage{53}
+  \item {src/CMakeFiles/circuitSimulator.dir/link.txt}, \hyperpage{54}
+  \item {src/CMakeFiles/geneticAlgorithm.dir/link.txt}, \hyperpage{54}
+  \item {src/CMakeLists.txt}, \hyperpage{54}
+  \item {src/CSimulator.cpp}, \hyperpage{60}
+  \item {src/Genetic\_Algorithm.cpp}, \hyperpage{62}
+  \item {src/graph.py}, \hyperpage{64}
+  \item {src/graph\_oneline.py}, \hyperpage{65}
+  \item {src/main.cpp}, \hyperpage{65}
+  \item {STRINGIFY}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{35}, \hyperpage{38}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{40}, \hyperpage{42}
+  \item {STRINGIFY\_HELPER}
+    \subitem {CMakeCCompilerId.c}, \hyperpage{36}, \hyperpage{38}
+    \subitem {CMakeCXXCompilerId.cpp}, \hyperpage{40}, \hyperpage{42}
+
+  \indexspace
+
+  \item {t\_ger\_flow\_out}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {t\_waste\_flow\_out}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {tailport}
+    \subitem {graph}, \hyperpage{6}
+    \subitem {graph\_oneline}, \hyperpage{9}
+  \item {tails\_feed\_list}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {tails\_list}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {test\_calculate\_reward}
+    \subitem {test\_simulator.cpp}, \hyperpage{69}
+  \item {test\_circuit}
+    \subitem {test\_validity.cpp}, \hyperpage{70}
+  \item {test\_circuit10}
+    \subitem {test\_GA.cpp}, \hyperpage{67}
+  \item {test\_circuit20}
+    \subitem {test\_GA.cpp}, \hyperpage{67}
+  \item {test\_circuit5}
+    \subitem {test\_GA.cpp}, \hyperpage{68}
+  \item {test\_GA.cpp}
+    \subitem {main}, \hyperpage{67}
+    \subitem {test\_circuit10}, \hyperpage{67}
+    \subitem {test\_circuit20}, \hyperpage{67}
+    \subitem {test\_circuit5}, \hyperpage{68}
+  \item {test\_instantiate\_circuit\_units}
+    \subitem {test\_simulator.cpp}, \hyperpage{69}
+  \item {test\_mpi.cpp}
+    \subitem {main}, \hyperpage{44}
+  \item {test\_simulator.cpp}
+    \subitem {isClose}, \hyperpage{68}
+    \subitem {main}, \hyperpage{69}
+    \subitem {test\_calculate\_reward}, \hyperpage{69}
+    \subitem {test\_instantiate\_circuit\_units}, \hyperpage{69}
+    \subitem {test\_small\_circuit}, \hyperpage{69}
+  \item {test\_small\_circuit}
+    \subitem {test\_simulator.cpp}, \hyperpage{69}
+  \item {test\_validity.cpp}
+    \subitem {main}, \hyperpage{70}
+    \subitem {test\_circuit}, \hyperpage{70}
+  \item {Testing/Temporary/CTestCostData.txt}, \hyperpage{54}
+  \item {tests/CMakeFiles/simulator\_tests.dir/link.txt}, 
+		\hyperpage{54}
+  \item {tests/CMakeFiles/test\_simulator.dir/link.txt}, \hyperpage{54}
+  \item {tests/CMakeFiles/test\_validity.dir/link.txt}, \hyperpage{54}
+  \item {tests/CMakeLists.txt}, \hyperpage{54}
+  \item {tests/test\_GA.cpp}, \hyperpage{66}
+  \item {tests/test\_simulator.cpp}, \hyperpage{68}
+  \item {tests/test\_validity.cpp}, \hyperpage{70}
+  \item {tol}
+    \subitem {Algorithm\_Parameters}, \hyperpage{11}
+  \item {tournament\_selection}
+    \subitem {GA}, \hyperpage{27}
+  \item {tournament\_selection\_parallel}
+    \subitem {GA}, \hyperpage{28}
+  \item {tournament\_size}
+    \subitem {Algorithm\_Parameters}, \hyperpage{12}
+  \item {tournament\_size\_parallel}
+    \subitem {Algorithm\_Parameters}, \hyperpage{12}
+  \item {True}
+    \subitem {graph}, \hyperpage{7}
+    \subitem {graph\_oneline}, \hyperpage{9}
+  \item {two\_point\_crossover}
+    \subitem {GA}, \hyperpage{28}
+
+  \indexspace
+
+  \item {update\_best}
+    \subitem {GA}, \hyperpage{29}
+
+  \indexspace
+
+  \item {vec\_size\_parent}
+    \subitem {GA}, \hyperpage{31}
+  \item {vec\_size\_population}
+    \subitem {GA}, \hyperpage{32}
+  \item {volume}
+    \subitem {SimulationParameters}, \hyperpage{33}
+
+  \indexspace
+
+  \item {waste\_flow\_in}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {waste\_flow\_in\_old}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {waste\_recovery}
+    \subitem {CUnit}, \hyperpage{18}
+  \item {waste\_reward}
+    \subitem {SimulationParameters}, \hyperpage{33}
+  \item {width}
+    \subitem {graph}, \hyperpage{7}
+    \subitem {graph\_oneline}, \hyperpage{9}
+  \item {Wl}
+    \subitem {link.txt}, \hyperpage{52, 53}
+  \item {write\_interval}
+    \subitem {Algorithm\_Parameters}, \hyperpage{12}
+  \item {write\_to\_file}
+    \subitem {GA}, \hyperpage{29}
+  \item {write\_vector\_values\_to\_array}
+    \subitem {CSimulator}, \hyperpage{16}
+
+\end{theindex}

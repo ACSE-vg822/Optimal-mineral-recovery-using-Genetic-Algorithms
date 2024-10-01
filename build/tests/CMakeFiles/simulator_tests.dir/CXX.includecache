@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CCircuit.h
+CUnit.h
+../include/CUnit.h
+vector
+-
+
+../include/CSimulator.h
+vector
+-
+CUnit.h
+../include/CUnit.h
+
+../include/CUnit.h
+vector
+-
+
+/home/vidushee/downloads/acs-gerardium-rush-dolomite/tests/simulator_tests.cpp
+cassert
+-
+cmath
+-
+fstream
+-
+iostream
+-
+CUnit.h
+/home/vidushee/downloads/acs-gerardium-rush-dolomite/tests/CUnit.h
+CCircuit.h
+/home/vidushee/downloads/acs-gerardium-rush-dolomite/tests/CCircuit.h
+CSimulator.h
+/home/vidushee/downloads/acs-gerardium-rush-dolomite/tests/CSimulator.h
+

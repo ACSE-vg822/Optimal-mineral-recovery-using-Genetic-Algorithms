@@ -1,0 +1,97 @@
+\hypertarget{Genetic__Algorithm_8cpp}{}\doxysubsection{src/\+Genetic\+\_\+\+Algorithm.cpp File Reference}
+\label{Genetic__Algorithm_8cpp}\index{src/Genetic\_Algorithm.cpp@{src/Genetic\_Algorithm.cpp}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$array$>$}\newline
+{\ttfamily \#include \char`\"{}C\+Simulator.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}C\+Circuit.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Genetic\+\_\+\+Algorithm.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$omp.\+h$>$}\newline
+Include dependency graph for Genetic\+\_\+\+Algorithm.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Genetic__Algorithm_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{Genetic__Algorithm_8cpp_abcde36b7ba3bc68d505524be74076f09}{binary\+\_\+search}} (double $\ast$list, double target, int size)
+\begin{DoxyCompactList}\small\item\em Perform a binary search. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{Genetic__Algorithm_8cpp_a8d1e3082bef8cf7377a090573625e75e}{partition}} (double $\ast$arr, int $\ast$tailing\+\_\+val, int start, int end)
+\begin{DoxyCompactList}\small\item\em Helper function for sorting. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{Genetic__Algorithm_8cpp_a93fbba82590d5f44d366937964796def}{quick\+Sort}} (double $\ast$arr, int $\ast$tailing\+\_\+val, int start, int end)
+\begin{DoxyCompactList}\small\item\em Custom in-\/place sort, tailing\+\_\+val will be sort according to arr. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Function Documentation}
+\mbox{\Hypertarget{Genetic__Algorithm_8cpp_abcde36b7ba3bc68d505524be74076f09}\label{Genetic__Algorithm_8cpp_abcde36b7ba3bc68d505524be74076f09}} 
+\index{Genetic\_Algorithm.cpp@{Genetic\_Algorithm.cpp}!binary\_search@{binary\_search}}
+\index{binary\_search@{binary\_search}!Genetic\_Algorithm.cpp@{Genetic\_Algorithm.cpp}}
+\doxyparagraph{\texorpdfstring{binary\_search()}{binary\_search()}}
+{\footnotesize\ttfamily int binary\+\_\+search (\begin{DoxyParamCaption}\item[{double $\ast$}]{list,  }\item[{double}]{target,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Perform a binary search. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & pointer of array of interest \\
+\hline
+{\em target} & the value wanted \\
+\hline
+{\em size} & size of the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{Genetic__Algorithm_8cpp_a8d1e3082bef8cf7377a090573625e75e}\label{Genetic__Algorithm_8cpp_a8d1e3082bef8cf7377a090573625e75e}} 
+\index{Genetic\_Algorithm.cpp@{Genetic\_Algorithm.cpp}!partition@{partition}}
+\index{partition@{partition}!Genetic\_Algorithm.cpp@{Genetic\_Algorithm.cpp}}
+\doxyparagraph{\texorpdfstring{partition()}{partition()}}
+{\footnotesize\ttfamily int partition (\begin{DoxyParamCaption}\item[{double $\ast$}]{arr,  }\item[{int $\ast$}]{tailing\+\_\+val,  }\item[{int}]{start,  }\item[{int}]{end }\end{DoxyParamCaption})}
+
+
+
+Helper function for sorting. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & pointer to the array to sort \\
+\hline
+{\em tailing\+\_\+val} & pointer to the array that should sort according to arr \\
+\hline
+{\em start} & starting index \\
+\hline
+{\em end} & ending index \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pivoting index 
+\end{DoxyReturn}
+\mbox{\Hypertarget{Genetic__Algorithm_8cpp_a93fbba82590d5f44d366937964796def}\label{Genetic__Algorithm_8cpp_a93fbba82590d5f44d366937964796def}} 
+\index{Genetic\_Algorithm.cpp@{Genetic\_Algorithm.cpp}!quickSort@{quickSort}}
+\index{quickSort@{quickSort}!Genetic\_Algorithm.cpp@{Genetic\_Algorithm.cpp}}
+\doxyparagraph{\texorpdfstring{quickSort()}{quickSort()}}
+{\footnotesize\ttfamily void quick\+Sort (\begin{DoxyParamCaption}\item[{double $\ast$}]{arr,  }\item[{int $\ast$}]{tailing\+\_\+val,  }\item[{int}]{start,  }\item[{int}]{end }\end{DoxyParamCaption})}
+
+
+
+Custom in-\/place sort, tailing\+\_\+val will be sort according to arr. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & pointer to the array to sort \\
+\hline
+{\em tailing\+\_\+val} & pointer to the array that should sort according to arr \\
+\hline
+{\em start} & starting index \\
+\hline
+{\em end} & ending index \\
+\hline
+\end{DoxyParams}

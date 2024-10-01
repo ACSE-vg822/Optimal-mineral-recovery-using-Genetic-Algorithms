@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcircuitSimulator.a  CMakeFiles/circuitSimulator.dir/CCircuit.cpp.o CMakeFiles/circuitSimulator.dir/CSimulator.cpp.o
+/usr/bin/ranlib libcircuitSimulator.a

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp  -pthread CMakeFiles/test_simulator.dir/test_simulator.cpp.o  -o bin/test_simulator  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib ../lib/libgeneticAlgorithm.a ../src/libcircuitSimulator.a /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 

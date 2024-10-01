@@ -1,0 +1,54 @@
+\hypertarget{test__validity_8cpp}{}\doxysubsection{tests/test\+\_\+validity.cpp File Reference}
+\label{test__validity_8cpp}\index{tests/test\_validity.cpp@{tests/test\_validity.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}C\+Unit.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}C\+Circuit.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cstddef$>$}\newline
+Include dependency graph for test\+\_\+validity.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test__validity_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$std\+::size\+\_\+t N$>$ }\\void \mbox{\hyperlink{test__validity_8cpp_ac19922d541c37995e883ed6b17f352e0}{test\+\_\+circuit}} (int(\&vec)\mbox{[}N\mbox{]}, bool expected\+\_\+validity)
+\begin{DoxyCompactList}\small\item\em Function to test circuit validity. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{test__validity_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Main function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Function Documentation}
+\mbox{\Hypertarget{test__validity_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{test__validity_8cpp_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{test\_validity.cpp@{test\_validity.cpp}!main@{main}}
+\index{main@{main}!test\_validity.cpp@{test\_validity.cpp}}
+\doxyparagraph{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Main function. 
+
+This function includes test cases to check the validity of a circuit. Tests are conducted on both valid and invalid circuit configurations. \mbox{\Hypertarget{test__validity_8cpp_ac19922d541c37995e883ed6b17f352e0}\label{test__validity_8cpp_ac19922d541c37995e883ed6b17f352e0}} 
+\index{test\_validity.cpp@{test\_validity.cpp}!test\_circuit@{test\_circuit}}
+\index{test\_circuit@{test\_circuit}!test\_validity.cpp@{test\_validity.cpp}}
+\doxyparagraph{\texorpdfstring{test\_circuit()}{test\_circuit()}}
+{\footnotesize\ttfamily template$<$std\+::size\+\_\+t N$>$ \\
+void test\+\_\+circuit (\begin{DoxyParamCaption}\item[{int(\&)}]{vec\mbox{[}\+N\mbox{]},  }\item[{bool}]{expected\+\_\+validity }\end{DoxyParamCaption})}
+
+
+
+Function to test circuit validity. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vec} & Vector of integers representing a circuit. \\
+\hline
+{\em expected\+\_\+validity} & Expected result of circuit validity check.\\
+\hline
+\end{DoxyParams}
+This function creates a \mbox{\hyperlink{classCCircuit}{C\+Circuit}} object, checks the circuit validity and validates the result using assert. 

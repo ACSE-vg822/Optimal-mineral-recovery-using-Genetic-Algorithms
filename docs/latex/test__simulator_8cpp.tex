@@ -1,0 +1,96 @@
+\hypertarget{test__simulator_8cpp}{}\doxysubsection{tests/test\+\_\+simulator.cpp File Reference}
+\label{test__simulator_8cpp}\index{tests/test\_simulator.cpp@{tests/test\_simulator.cpp}}
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}C\+Unit.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}C\+Circuit.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}C\+Simulator.\+h\char`\"{}}\newline
+Include dependency graph for test\+\_\+simulator.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test__simulator_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{test__simulator_8cpp_a6f5c87d830d7cfc0c3847d4c8f9f185d}{test\+\_\+instantiate\+\_\+circuit\+\_\+units}} ()
+\begin{DoxyCompactList}\small\item\em Test instantiation of circuit units. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{test__simulator_8cpp_a73355427bed7f9f82cef74467d05c53f}{is\+Close}} (double a, double b, double epsilon)
+\begin{DoxyCompactList}\small\item\em Check if two double values are close to each other within a certain epsilon. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test__simulator_8cpp_ab0e71f791a75b532c5b1ba201fae8a35}{test\+\_\+calculate\+\_\+reward}} ()
+\begin{DoxyCompactList}\small\item\em Test the reward calculation of the simulator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{test__simulator_8cpp_a0d9b9a9515408bcce1d182a994f77ac9}{test\+\_\+small\+\_\+circuit}} ()
+\begin{DoxyCompactList}\small\item\em Test a small circuit simulation. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{test__simulator_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Main function to run the tests. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Function Documentation}
+\mbox{\Hypertarget{test__simulator_8cpp_a73355427bed7f9f82cef74467d05c53f}\label{test__simulator_8cpp_a73355427bed7f9f82cef74467d05c53f}} 
+\index{test\_simulator.cpp@{test\_simulator.cpp}!isClose@{isClose}}
+\index{isClose@{isClose}!test\_simulator.cpp@{test\_simulator.cpp}}
+\doxyparagraph{\texorpdfstring{isClose()}{isClose()}}
+{\footnotesize\ttfamily bool is\+Close (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{double}]{epsilon }\end{DoxyParamCaption})}
+
+
+
+Check if two double values are close to each other within a certain epsilon. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First double value \\
+\hline
+{\em b} & Second double value \\
+\hline
+{\em epsilon} & Maximum allowed difference between a and b \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if $\vert$a -\/ b$\vert$ $<$ epsilon, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{test__simulator_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{test__simulator_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{test\_simulator.cpp@{test\_simulator.cpp}!main@{main}}
+\index{main@{main}!test\_simulator.cpp@{test\_simulator.cpp}}
+\doxyparagraph{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function to run the tests. 
+
+This main function runs all the defined test functions. \mbox{\Hypertarget{test__simulator_8cpp_ab0e71f791a75b532c5b1ba201fae8a35}\label{test__simulator_8cpp_ab0e71f791a75b532c5b1ba201fae8a35}} 
+\index{test\_simulator.cpp@{test\_simulator.cpp}!test\_calculate\_reward@{test\_calculate\_reward}}
+\index{test\_calculate\_reward@{test\_calculate\_reward}!test\_simulator.cpp@{test\_simulator.cpp}}
+\doxyparagraph{\texorpdfstring{test\_calculate\_reward()}{test\_calculate\_reward()}}
+{\footnotesize\ttfamily void test\+\_\+calculate\+\_\+reward (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test the reward calculation of the simulator. 
+
+This function initializes simulation parameters and creates a \mbox{\hyperlink{classCSimulator}{C\+Simulator}} instance to verify the correct calculation of the reward value. \mbox{\Hypertarget{test__simulator_8cpp_a6f5c87d830d7cfc0c3847d4c8f9f185d}\label{test__simulator_8cpp_a6f5c87d830d7cfc0c3847d4c8f9f185d}} 
+\index{test\_simulator.cpp@{test\_simulator.cpp}!test\_instantiate\_circuit\_units@{test\_instantiate\_circuit\_units}}
+\index{test\_instantiate\_circuit\_units@{test\_instantiate\_circuit\_units}!test\_simulator.cpp@{test\_simulator.cpp}}
+\doxyparagraph{\texorpdfstring{test\_instantiate\_circuit\_units()}{test\_instantiate\_circuit\_units()}}
+{\footnotesize\ttfamily void test\+\_\+instantiate\+\_\+circuit\+\_\+units (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test instantiation of circuit units. 
+
+This function sets up simulation parameters and creates a \mbox{\hyperlink{classCSimulator}{C\+Simulator}} instance to verify correct instantiation and behavior of the circuit units. \mbox{\Hypertarget{test__simulator_8cpp_a0d9b9a9515408bcce1d182a994f77ac9}\label{test__simulator_8cpp_a0d9b9a9515408bcce1d182a994f77ac9}} 
+\index{test\_simulator.cpp@{test\_simulator.cpp}!test\_small\_circuit@{test\_small\_circuit}}
+\index{test\_small\_circuit@{test\_small\_circuit}!test\_simulator.cpp@{test\_simulator.cpp}}
+\doxyparagraph{\texorpdfstring{test\_small\_circuit()}{test\_small\_circuit()}}
+{\footnotesize\ttfamily void test\+\_\+small\+\_\+circuit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test a small circuit simulation. 
+
+This function sets up simulation parameters for a small circuit, creates a \mbox{\hyperlink{classCSimulator}{C\+Simulator}} instance and verifies the correct calculation of total concentrate and tail flows. 

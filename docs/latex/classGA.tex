@@ -1,0 +1,739 @@
+\hypertarget{classGA}{}\doxysubsection{GA Class Reference}
+\label{classGA}\index{GA@{GA}}
+
+
+{\ttfamily \#include $<$Genetic\+\_\+\+Algorithm.\+h$>$}
+
+
+
+Collaboration diagram for GA\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classGA__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGA_a754149f21a0440f8078abb48f1c88ef3}{GA}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor of the \mbox{\hyperlink{classGA}{GA}} class. This constructor initializes the class member variables to default values. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGA_a3bd73802d3e21f7a5282e7352ea55f2d}{GA}} (\mbox{\hyperlink{structAlgorithm__Parameters}{Algorithm\+\_\+\+Parameters}} AP, \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} SP)
+\begin{DoxyCompactList}\small\item\em Constructor of the \mbox{\hyperlink{classGA}{GA}} class. This constructor initializes the class member variables. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGA_a18975e5b8b24b68b2d783ae3080845c9}{$\sim$\+GA}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of the \mbox{\hyperlink{classGA}{GA}} class. This destructor releases dynamically allocated memory. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_aea267c6711fe2eeeb6a0a5b74f0439e2}{setup}} ()
+\begin{DoxyCompactList}\small\item\em This function sets up the genetic algorithm, initializing various parameters and data structures. The setup is based on the user passed parameters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a3047558ae18f447da3e0bb1052d7b436}{setup\+\_\+parallel}} ()
+\item 
+void \mbox{\hyperlink{classGA_aa3da4ffeb919038b19ac6ce8af021ca6}{optimize}} ()
+\begin{DoxyCompactList}\small\item\em Main function to optimize the genetic algorithm. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a6b12488a8a1def90c4ebeac30fe37c8c}{optimize\+\_\+without\+\_\+mpi}} ()
+\begin{DoxyCompactList}\small\item\em Executes the genetic algorithm optimization without M\+PI parallelism. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a9809d1cff71019e09be76834ad9ad197}{two\+\_\+point\+\_\+crossover}} (int idx1, int idx2, int dest)
+\begin{DoxyCompactList}\small\item\em Performs the two point crossover. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a0a0eef10231a025e0c5981363eae2de8}{generate\+\_\+child}} ()
+\begin{DoxyCompactList}\small\item\em This function generates all the children for next iteration in the genetic algorithm. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_ae8131bcf544bbcf73c7be3b25cd253f0}{mutation}} (int population\+\_\+idx)
+\begin{DoxyCompactList}\small\item\em Performs mutation operation on the population at a given index. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_ae67556ddee2cc7686d92acf4a68468be}{selection}} ()
+\begin{DoxyCompactList}\small\item\em Performs the selection process on the current population. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a97ddc4be7c1685ef4f15083447512a93}{rank\+\_\+selection}} ()
+\begin{DoxyCompactList}\small\item\em Performs the rank selection process on the current population. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a659584c5e528ae8f5a72e204dc0529f5}{roulette\+\_\+selection}} ()
+\begin{DoxyCompactList}\small\item\em Performs the roulette selection process on the current population. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_ab6c33e3333475bd281c02a9b48d446a4}{tournament\+\_\+selection}} ()
+\begin{DoxyCompactList}\small\item\em Executes tournament selection. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classGA_afede56f21e2ec496d2f25cedfe7602d9}{rank\+\_\+func}} (int ranking)
+\begin{DoxyCompactList}\small\item\em calculating a value based on ranking. in general, higher ranking will result in higher value \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_adc59c26e4ac9c68329188739092b3e50}{set\+\_\+best\+\_\+to\+\_\+parent}} ()
+\begin{DoxyCompactList}\small\item\em Sets the best solution to the parent pool. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a81534156b65d30bef1b7ab0a98471d21}{in\+\_\+place\+\_\+sort}} (int $\ast$tailing\+\_\+val, int size, double $\ast$tosort)
+\begin{DoxyCompactList}\small\item\em in-\/place sorting wrapper \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a4d9badd392a834806575cae497b30e1b}{optimize\+\_\+parallel}} ()
+\item 
+void \mbox{\hyperlink{classGA_ab1aa6191deb99a5373c314dfe0bfdeb3}{mpi\+\_\+reduction\+\_\+wrapper}} ()
+\item 
+void \mbox{\hyperlink{classGA_a344d1accd96d3d5f9c013dcfcc5721da}{tournament\+\_\+selection\+\_\+parallel}} ()
+\item 
+void \mbox{\hyperlink{classGA_a5af2ade9906dc8942689342b9cae0ac8}{roulette\+\_\+selection\+\_\+parallel}} ()
+\item 
+int \mbox{\hyperlink{classGA_a625a6bb6de7b873a534d25e79e924957}{get\+\_\+idx}} (int pos\+\_\+in\+\_\+array, int pos\+\_\+in\+\_\+vec)
+\begin{DoxyCompactList}\small\item\em This function returns an index into a one-\/dimensional array given two indices. The 1d array contains n elements, each one has size of size\+\_\+per\+\_\+cir. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_a3094c6dedb30c30a0189f8687366f7aa}{get\+\_\+idx\+\_\+node}} (int pos, int node, int val)
+\begin{DoxyCompactList}\small\item\em This function returns an index into a one-\/dimensional array given three indices. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_a7cc84fa928be8be2be79982e3b7d8668}{get\+\_\+node\+\_\+num}} (int pos)
+\begin{DoxyCompactList}\small\item\em get the node number \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a187573b4d603253d6e82d99d0a7aa548}{copy\+\_\+parent\+\_\+to\+\_\+child}} (int parentid, int childid)
+\begin{DoxyCompactList}\small\item\em copy from parent to population \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a1e9682648ff26d4f18837394535c8d8e}{generalized\+\_\+copy}} (int id1, int id2, int $\ast$arr1, int $\ast$arr2, int count)
+\begin{DoxyCompactList}\small\item\em generalized copy of two array of same structure \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a161bc12e4969af217a4151223e4f23ab}{reinitialize\+\_\+pil}} ()
+\begin{DoxyCompactList}\small\item\em reset the population\+\_\+idex\+\_\+list \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a689c9379307aae3b61e3035779dc2fc8}{update\+\_\+best}} ()
+\begin{DoxyCompactList}\small\item\em update best result \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_ad716438ad7b3591e9c8232cece299365}{select\+\_\+mate}} (int \&parent1, int \&parent2)
+\item 
+bool \mbox{\hyperlink{classGA_a6846541171211b130a2b445e01397c04}{check\+\_\+same}} (int $\ast$p1, int $\ast$p2)
+\begin{DoxyCompactList}\small\item\em This function checks if two arrays are the same. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGA_a81f6c2400e7d4efaa38342f677cd5f78}{write\+\_\+to\+\_\+file}} ()
+\begin{DoxyCompactList}\small\item\em This function writes the current best solution of the genetic algorithm to a file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structAlgorithm__Parameters}{Algorithm\+\_\+\+Parameters}} \mbox{\hyperlink{classGA_aff1a455809a2e9af0d939b9a084f8873}{parameters}}
+\item 
+\mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} \mbox{\hyperlink{classGA_a9ca4e83111cd53be256e22b6a831b896}{sim\+\_\+params}}
+\item 
+int \mbox{\hyperlink{classGA_a0bb432b032a9df172ece4f4fc9d45919}{vec\+\_\+size\+\_\+parent}}
+\begin{DoxyCompactList}\small\item\em Total size of parent-\/pool array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_abc26ef1f09921dc8f9084b27f1342920}{vec\+\_\+size\+\_\+population}}
+\begin{DoxyCompactList}\small\item\em Total size of population-\/pool array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_aff6dc4f89325014a1ac0c7796f988317}{size\+\_\+per\+\_\+cir}}
+\begin{DoxyCompactList}\small\item\em Size per circuit array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_af86a1c23b189146e7f83e93fad815f9f}{mate\+\_\+count\+\_\+all}}
+\begin{DoxyCompactList}\small\item\em Parameters for performance analysis. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_af4ed10169aa88221811f1d583da7ee05}{same\+\_\+mate}}
+\begin{DoxyCompactList}\small\item\em Parameters for performance analysis. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGA_a879a27a361c24720b16f8d4b34001bf2}{nottouched}}
+\begin{DoxyCompactList}\small\item\em Flag for updating the best fitness value. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{classGA_ace1ccee2bed1479fb3f9c7e26738f79a}{parents}}
+\begin{DoxyCompactList}\small\item\em Parent pool. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{classGA_ae7cd9f6c98a1ab77bda21bf0e4e9d8c6}{population}}
+\begin{DoxyCompactList}\small\item\em Population pool. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classGA_a617c0b97b80b752876f69ff9d552352d}{best\+\_\+fitness}}
+\begin{DoxyCompactList}\small\item\em Current best fitness. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{classGA_a992d68dcdd28d47d3b0a4a46bdb3d2f6}{best\+\_\+circuit}}
+\begin{DoxyCompactList}\small\item\em Current best circuit. \end{DoxyCompactList}\item 
+double $\ast$ \mbox{\hyperlink{classGA_af49c6e09a84da90ba1e85736c3ed2532}{fitness\+\_\+population}}
+\begin{DoxyCompactList}\small\item\em Fitness of corresponding population. \end{DoxyCompactList}\item 
+double $\ast$ \mbox{\hyperlink{classGA_a55f9d7cbfb8a6e0ad8de0910a1d4f77e}{fitness\+\_\+parents}}
+\begin{DoxyCompactList}\small\item\em Fitness of corresponding parent. \end{DoxyCompactList}\item 
+double $\ast$ \mbox{\hyperlink{classGA_a539720319d6372118453a6cb93a32e83}{roulette\+\_\+sum}}
+\begin{DoxyCompactList}\small\item\em Rolling sum for roulette selection. \end{DoxyCompactList}\item 
+double $\ast$ \mbox{\hyperlink{classGA_a3f1d796bc10fc7fc93ac7a6bbb213335}{rank\+\_\+sum}}
+\begin{DoxyCompactList}\small\item\em Rolling sum for rank selection. \end{DoxyCompactList}\item 
+double $\ast$ \mbox{\hyperlink{classGA_a29ef5c1f73b30917320334f7bffafcbc}{rank\+\_\+val}}
+\begin{DoxyCompactList}\small\item\em Ranking function values for each individual ranking. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{classGA_a6d479cee4ab4219084d589a97520d06b}{population\+\_\+idex\+\_\+list}}
+\begin{DoxyCompactList}\small\item\em Ranking of corresponding population. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classGA_aa11df611f020444f3ce0c2fc1e3a222f}{old\+\_\+best\+\_\+fitness}}
+\begin{DoxyCompactList}\small\item\em Last best fitness. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_ad14b902202a90d6a5d34bf1fa665098c}{not\+\_\+improving\+\_\+count}}
+\begin{DoxyCompactList}\small\item\em Iteration count during which the best fitness is not improving. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGA_a0d697e01fdc7ea4ae539498b46e56a98}{cur\+\_\+iter}}
+\begin{DoxyCompactList}\small\item\em Current iteration number of Genetic algorithm. \end{DoxyCompactList}\item 
+double $\ast$ \mbox{\hyperlink{classGA_ab42dc05d24174563e03bce2f2157fc6a}{file\+\_\+write\+\_\+buffer}}
+\begin{DoxyCompactList}\small\item\em Buffer to store the unit in/out flow information. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGA_a754149f21a0440f8078abb48f1c88ef3}\label{classGA_a754149f21a0440f8078abb48f1c88ef3}} 
+\index{GA@{GA}!GA@{GA}}
+\index{GA@{GA}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{GA()}{GA()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily G\+A\+::\+GA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor of the \mbox{\hyperlink{classGA}{GA}} class. This constructor initializes the class member variables to default values. 
+
+\mbox{\Hypertarget{classGA_a3bd73802d3e21f7a5282e7352ea55f2d}\label{classGA_a3bd73802d3e21f7a5282e7352ea55f2d}} 
+\index{GA@{GA}!GA@{GA}}
+\index{GA@{GA}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{GA()}{GA()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily G\+A\+::\+GA (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structAlgorithm__Parameters}{Algorithm\+\_\+\+Parameters}}}]{AP,  }\item[{\mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}}}]{SP }\end{DoxyParamCaption})}
+
+
+
+Constructor of the \mbox{\hyperlink{classGA}{GA}} class. This constructor initializes the class member variables. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em AP} & A structure containing the algorithm parameters. \\
+\hline
+{\em SP} & A structure containing the simulation parameters. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGA_a18975e5b8b24b68b2d783ae3080845c9}\label{classGA_a18975e5b8b24b68b2d783ae3080845c9}} 
+\index{GA@{GA}!````~GA@{$\sim$GA}}
+\index{````~GA@{$\sim$GA}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{$\sim$GA()}{~GA()}}
+{\footnotesize\ttfamily G\+A\+::$\sim$\+GA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor of the \mbox{\hyperlink{classGA}{GA}} class. This destructor releases dynamically allocated memory. 
+
+
+
+\doxysubsubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGA_a6846541171211b130a2b445e01397c04}\label{classGA_a6846541171211b130a2b445e01397c04}} 
+\index{GA@{GA}!check\_same@{check\_same}}
+\index{check\_same@{check\_same}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{check\_same()}{check\_same()}}
+{\footnotesize\ttfamily bool G\+A\+::check\+\_\+same (\begin{DoxyParamCaption}\item[{int $\ast$}]{p1,  }\item[{int $\ast$}]{p2 }\end{DoxyParamCaption})}
+
+
+
+This function checks if two arrays are the same. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p1} & Pointer to the first array. \\
+\hline
+{\em p2} & Pointer to the second array. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the two arrays are the same, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGA_a187573b4d603253d6e82d99d0a7aa548}\label{classGA_a187573b4d603253d6e82d99d0a7aa548}} 
+\index{GA@{GA}!copy\_parent\_to\_child@{copy\_parent\_to\_child}}
+\index{copy\_parent\_to\_child@{copy\_parent\_to\_child}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{copy\_parent\_to\_child()}{copy\_parent\_to\_child()}}
+{\footnotesize\ttfamily void G\+A\+::copy\+\_\+parent\+\_\+to\+\_\+child (\begin{DoxyParamCaption}\item[{int}]{parentid,  }\item[{int}]{childid }\end{DoxyParamCaption})}
+
+
+
+copy from parent to population 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parentid} & index of parent to be copied \\
+\hline
+{\em childid} & index of population to be copied to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGA_a1e9682648ff26d4f18837394535c8d8e}\label{classGA_a1e9682648ff26d4f18837394535c8d8e}} 
+\index{GA@{GA}!generalized\_copy@{generalized\_copy}}
+\index{generalized\_copy@{generalized\_copy}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{generalized\_copy()}{generalized\_copy()}}
+{\footnotesize\ttfamily void G\+A\+::generalized\+\_\+copy (\begin{DoxyParamCaption}\item[{int}]{id1,  }\item[{int}]{id2,  }\item[{int $\ast$}]{arr1,  }\item[{int $\ast$}]{arr2,  }\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+generalized copy of two array of same structure 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id1} & idex in arr1 to copy to \\
+\hline
+{\em id2} & idex in arr2 to copy \\
+\hline
+{\em arr1} & destination array \\
+\hline
+{\em arr2} & source array \\
+\hline
+{\em count} & number of items to copy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGA_a0a0eef10231a025e0c5981363eae2de8}\label{classGA_a0a0eef10231a025e0c5981363eae2de8}} 
+\index{GA@{GA}!generate\_child@{generate\_child}}
+\index{generate\_child@{generate\_child}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{generate\_child()}{generate\_child()}}
+{\footnotesize\ttfamily void G\+A\+::generate\+\_\+child (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function generates all the children for next iteration in the genetic algorithm. 
+
+\mbox{\Hypertarget{classGA_a625a6bb6de7b873a534d25e79e924957}\label{classGA_a625a6bb6de7b873a534d25e79e924957}} 
+\index{GA@{GA}!get\_idx@{get\_idx}}
+\index{get\_idx@{get\_idx}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{get\_idx()}{get\_idx()}}
+{\footnotesize\ttfamily int G\+A\+::get\+\_\+idx (\begin{DoxyParamCaption}\item[{int}]{pos\+\_\+in\+\_\+array,  }\item[{int}]{pos\+\_\+in\+\_\+vec }\end{DoxyParamCaption})}
+
+
+
+This function returns an index into a one-\/dimensional array given two indices. The 1d array contains n elements, each one has size of size\+\_\+per\+\_\+cir. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+in\+\_\+array} & The position in the array. \\
+\hline
+{\em pos\+\_\+in\+\_\+vec} & The position in the vector. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An index in a one-\/dimensional array. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGA_a3094c6dedb30c30a0189f8687366f7aa}\label{classGA_a3094c6dedb30c30a0189f8687366f7aa}} 
+\index{GA@{GA}!get\_idx\_node@{get\_idx\_node}}
+\index{get\_idx\_node@{get\_idx\_node}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{get\_idx\_node()}{get\_idx\_node()}}
+{\footnotesize\ttfamily int G\+A\+::get\+\_\+idx\+\_\+node (\begin{DoxyParamCaption}\item[{int}]{pos,  }\item[{int}]{node,  }\item[{int}]{val }\end{DoxyParamCaption})}
+
+
+
+This function returns an index into a one-\/dimensional array given three indices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & The position in the array. \\
+\hline
+{\em node} & The node index. \\
+\hline
+{\em val} & The value index. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An index in a one-\/dimensional array. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGA_a7cc84fa928be8be2be79982e3b7d8668}\label{classGA_a7cc84fa928be8be2be79982e3b7d8668}} 
+\index{GA@{GA}!get\_node\_num@{get\_node\_num}}
+\index{get\_node\_num@{get\_node\_num}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{get\_node\_num()}{get\_node\_num()}}
+{\footnotesize\ttfamily int G\+A\+::get\+\_\+node\+\_\+num (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+get the node number 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & index in 1d array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the node number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGA_a81534156b65d30bef1b7ab0a98471d21}\label{classGA_a81534156b65d30bef1b7ab0a98471d21}} 
+\index{GA@{GA}!in\_place\_sort@{in\_place\_sort}}
+\index{in\_place\_sort@{in\_place\_sort}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{in\_place\_sort()}{in\_place\_sort()}}
+{\footnotesize\ttfamily void G\+A\+::in\+\_\+place\+\_\+sort (\begin{DoxyParamCaption}\item[{int $\ast$}]{tailing\+\_\+val,  }\item[{int}]{size,  }\item[{double $\ast$}]{tosort }\end{DoxyParamCaption})}
+
+
+
+in-\/place sorting wrapper 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tailing\+\_\+val} & pointer to the array that should sort according to arr \\
+\hline
+{\em size} & size of array \\
+\hline
+{\em tosort} & pointer to the array to sort \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGA_ab1aa6191deb99a5373c314dfe0bfdeb3}\label{classGA_ab1aa6191deb99a5373c314dfe0bfdeb3}} 
+\index{GA@{GA}!mpi\_reduction\_wrapper@{mpi\_reduction\_wrapper}}
+\index{mpi\_reduction\_wrapper@{mpi\_reduction\_wrapper}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{mpi\_reduction\_wrapper()}{mpi\_reduction\_wrapper()}}
+{\footnotesize\ttfamily void G\+A\+::mpi\+\_\+reduction\+\_\+wrapper (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGA_ae8131bcf544bbcf73c7be3b25cd253f0}\label{classGA_ae8131bcf544bbcf73c7be3b25cd253f0}} 
+\index{GA@{GA}!mutation@{mutation}}
+\index{mutation@{mutation}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{mutation()}{mutation()}}
+{\footnotesize\ttfamily void G\+A\+::mutation (\begin{DoxyParamCaption}\item[{int}]{population\+\_\+idx }\end{DoxyParamCaption})}
+
+
+
+Performs mutation operation on the population at a given index. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em population\+\_\+idx} & Index of the population member to be mutated\\
+\hline
+\end{DoxyParams}
+The function randomly selects an index within the member of the population, then replaces the value at that index with a new random value. \mbox{\Hypertarget{classGA_aa3da4ffeb919038b19ac6ce8af021ca6}\label{classGA_aa3da4ffeb919038b19ac6ce8af021ca6}} 
+\index{GA@{GA}!optimize@{optimize}}
+\index{optimize@{optimize}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{optimize()}{optimize()}}
+{\footnotesize\ttfamily void G\+A\+::optimize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function to optimize the genetic algorithm. 
+
+Depending on the defined macros, the function decides to execute parallel optimization or non-\/parallel optimization. \mbox{\Hypertarget{classGA_a4d9badd392a834806575cae497b30e1b}\label{classGA_a4d9badd392a834806575cae497b30e1b}} 
+\index{GA@{GA}!optimize\_parallel@{optimize\_parallel}}
+\index{optimize\_parallel@{optimize\_parallel}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{optimize\_parallel()}{optimize\_parallel()}}
+{\footnotesize\ttfamily void G\+A\+::optimize\+\_\+parallel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGA_a6b12488a8a1def90c4ebeac30fe37c8c}\label{classGA_a6b12488a8a1def90c4ebeac30fe37c8c}} 
+\index{GA@{GA}!optimize\_without\_mpi@{optimize\_without\_mpi}}
+\index{optimize\_without\_mpi@{optimize\_without\_mpi}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{optimize\_without\_mpi()}{optimize\_without\_mpi()}}
+{\footnotesize\ttfamily void G\+A\+::optimize\+\_\+without\+\_\+mpi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Executes the genetic algorithm optimization without M\+PI parallelism. 
+
+The function iterates through a series of generations, each time generating a new population of possible solutions. The solutions are selected and modified to form the next generation. \mbox{\Hypertarget{classGA_afede56f21e2ec496d2f25cedfe7602d9}\label{classGA_afede56f21e2ec496d2f25cedfe7602d9}} 
+\index{GA@{GA}!rank\_func@{rank\_func}}
+\index{rank\_func@{rank\_func}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{rank\_func()}{rank\_func()}}
+{\footnotesize\ttfamily double G\+A\+::rank\+\_\+func (\begin{DoxyParamCaption}\item[{int}]{ranking }\end{DoxyParamCaption})}
+
+
+
+calculating a value based on ranking. in general, higher ranking will result in higher value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ranking} & ranking \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the corresponding value of this ranking 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGA_a97ddc4be7c1685ef4f15083447512a93}\label{classGA_a97ddc4be7c1685ef4f15083447512a93}} 
+\index{GA@{GA}!rank\_selection@{rank\_selection}}
+\index{rank\_selection@{rank\_selection}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{rank\_selection()}{rank\_selection()}}
+{\footnotesize\ttfamily void G\+A\+::rank\+\_\+selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Performs the rank selection process on the current population. 
+
+\mbox{\Hypertarget{classGA_a161bc12e4969af217a4151223e4f23ab}\label{classGA_a161bc12e4969af217a4151223e4f23ab}} 
+\index{GA@{GA}!reinitialize\_pil@{reinitialize\_pil}}
+\index{reinitialize\_pil@{reinitialize\_pil}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{reinitialize\_pil()}{reinitialize\_pil()}}
+{\footnotesize\ttfamily void G\+A\+::reinitialize\+\_\+pil (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+reset the population\+\_\+idex\+\_\+list 
+
+\mbox{\Hypertarget{classGA_a659584c5e528ae8f5a72e204dc0529f5}\label{classGA_a659584c5e528ae8f5a72e204dc0529f5}} 
+\index{GA@{GA}!roulette\_selection@{roulette\_selection}}
+\index{roulette\_selection@{roulette\_selection}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{roulette\_selection()}{roulette\_selection()}}
+{\footnotesize\ttfamily void G\+A\+::roulette\+\_\+selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Performs the roulette selection process on the current population. 
+
+\mbox{\Hypertarget{classGA_a5af2ade9906dc8942689342b9cae0ac8}\label{classGA_a5af2ade9906dc8942689342b9cae0ac8}} 
+\index{GA@{GA}!roulette\_selection\_parallel@{roulette\_selection\_parallel}}
+\index{roulette\_selection\_parallel@{roulette\_selection\_parallel}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{roulette\_selection\_parallel()}{roulette\_selection\_parallel()}}
+{\footnotesize\ttfamily void G\+A\+::roulette\+\_\+selection\+\_\+parallel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGA_ad716438ad7b3591e9c8232cece299365}\label{classGA_ad716438ad7b3591e9c8232cece299365}} 
+\index{GA@{GA}!select\_mate@{select\_mate}}
+\index{select\_mate@{select\_mate}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{select\_mate()}{select\_mate()}}
+{\footnotesize\ttfamily void G\+A\+::select\+\_\+mate (\begin{DoxyParamCaption}\item[{int \&}]{parent1,  }\item[{int \&}]{parent2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGA_ae67556ddee2cc7686d92acf4a68468be}\label{classGA_ae67556ddee2cc7686d92acf4a68468be}} 
+\index{GA@{GA}!selection@{selection}}
+\index{selection@{selection}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{selection()}{selection()}}
+{\footnotesize\ttfamily void G\+A\+::selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Performs the selection process on the current population. 
+
+Depending on the specified selection scheme (rank, roulette or tournament), it selects the most suitable individuals from the population to be parents for the next generation. \mbox{\Hypertarget{classGA_adc59c26e4ac9c68329188739092b3e50}\label{classGA_adc59c26e4ac9c68329188739092b3e50}} 
+\index{GA@{GA}!set\_best\_to\_parent@{set\_best\_to\_parent}}
+\index{set\_best\_to\_parent@{set\_best\_to\_parent}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{set\_best\_to\_parent()}{set\_best\_to\_parent()}}
+{\footnotesize\ttfamily void G\+A\+::set\+\_\+best\+\_\+to\+\_\+parent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Sets the best solution to the parent pool. 
+
+This is typically done after a new generation is created, and the best solution from the previous generation is kept for comparison. \mbox{\Hypertarget{classGA_aea267c6711fe2eeeb6a0a5b74f0439e2}\label{classGA_aea267c6711fe2eeeb6a0a5b74f0439e2}} 
+\index{GA@{GA}!setup@{setup}}
+\index{setup@{setup}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void G\+A\+::setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function sets up the genetic algorithm, initializing various parameters and data structures. The setup is based on the user passed parameters. 
+
+\mbox{\Hypertarget{classGA_a3047558ae18f447da3e0bb1052d7b436}\label{classGA_a3047558ae18f447da3e0bb1052d7b436}} 
+\index{GA@{GA}!setup\_parallel@{setup\_parallel}}
+\index{setup\_parallel@{setup\_parallel}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{setup\_parallel()}{setup\_parallel()}}
+{\footnotesize\ttfamily void G\+A\+::setup\+\_\+parallel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGA_ab6c33e3333475bd281c02a9b48d446a4}\label{classGA_ab6c33e3333475bd281c02a9b48d446a4}} 
+\index{GA@{GA}!tournament\_selection@{tournament\_selection}}
+\index{tournament\_selection@{tournament\_selection}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{tournament\_selection()}{tournament\_selection()}}
+{\footnotesize\ttfamily void G\+A\+::tournament\+\_\+selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Executes tournament selection. 
+
+Selects the best solutions from a randomly chosen subset of the population. The chosen solutions are then used to form the parent pool for the next generation. \mbox{\Hypertarget{classGA_a344d1accd96d3d5f9c013dcfcc5721da}\label{classGA_a344d1accd96d3d5f9c013dcfcc5721da}} 
+\index{GA@{GA}!tournament\_selection\_parallel@{tournament\_selection\_parallel}}
+\index{tournament\_selection\_parallel@{tournament\_selection\_parallel}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{tournament\_selection\_parallel()}{tournament\_selection\_parallel()}}
+{\footnotesize\ttfamily void G\+A\+::tournament\+\_\+selection\+\_\+parallel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGA_a9809d1cff71019e09be76834ad9ad197}\label{classGA_a9809d1cff71019e09be76834ad9ad197}} 
+\index{GA@{GA}!two\_point\_crossover@{two\_point\_crossover}}
+\index{two\_point\_crossover@{two\_point\_crossover}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{two\_point\_crossover()}{two\_point\_crossover()}}
+{\footnotesize\ttfamily void G\+A\+::two\+\_\+point\+\_\+crossover (\begin{DoxyParamCaption}\item[{int}]{idx1,  }\item[{int}]{idx2,  }\item[{int}]{dest }\end{DoxyParamCaption})}
+
+
+
+Performs the two point crossover. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em idx1} & index of the first parent \\
+\hline
+{\em idx2} & index of the second parent \\
+\hline
+{\em dest} & index of the population which will be overwritten \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGA_a689c9379307aae3b61e3035779dc2fc8}\label{classGA_a689c9379307aae3b61e3035779dc2fc8}} 
+\index{GA@{GA}!update\_best@{update\_best}}
+\index{update\_best@{update\_best}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{update\_best()}{update\_best()}}
+{\footnotesize\ttfamily void G\+A\+::update\+\_\+best (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+update best result 
+
+\mbox{\Hypertarget{classGA_a81f6c2400e7d4efaa38342f677cd5f78}\label{classGA_a81f6c2400e7d4efaa38342f677cd5f78}} 
+\index{GA@{GA}!write\_to\_file@{write\_to\_file}}
+\index{write\_to\_file@{write\_to\_file}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{write\_to\_file()}{write\_to\_file()}}
+{\footnotesize\ttfamily void G\+A\+::write\+\_\+to\+\_\+file (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This function writes the current best solution of the genetic algorithm to a file. 
+
+
+
+\doxysubsubsection{Member Data Documentation}
+\mbox{\Hypertarget{classGA_a992d68dcdd28d47d3b0a4a46bdb3d2f6}\label{classGA_a992d68dcdd28d47d3b0a4a46bdb3d2f6}} 
+\index{GA@{GA}!best\_circuit@{best\_circuit}}
+\index{best\_circuit@{best\_circuit}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{best\_circuit}{best\_circuit}}
+{\footnotesize\ttfamily int$\ast$ G\+A\+::best\+\_\+circuit}
+
+
+
+Current best circuit. 
+
+\mbox{\Hypertarget{classGA_a617c0b97b80b752876f69ff9d552352d}\label{classGA_a617c0b97b80b752876f69ff9d552352d}} 
+\index{GA@{GA}!best\_fitness@{best\_fitness}}
+\index{best\_fitness@{best\_fitness}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{best\_fitness}{best\_fitness}}
+{\footnotesize\ttfamily double G\+A\+::best\+\_\+fitness}
+
+
+
+Current best fitness. 
+
+\mbox{\Hypertarget{classGA_a0d697e01fdc7ea4ae539498b46e56a98}\label{classGA_a0d697e01fdc7ea4ae539498b46e56a98}} 
+\index{GA@{GA}!cur\_iter@{cur\_iter}}
+\index{cur\_iter@{cur\_iter}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{cur\_iter}{cur\_iter}}
+{\footnotesize\ttfamily int G\+A\+::cur\+\_\+iter}
+
+
+
+Current iteration number of Genetic algorithm. 
+
+\mbox{\Hypertarget{classGA_ab42dc05d24174563e03bce2f2157fc6a}\label{classGA_ab42dc05d24174563e03bce2f2157fc6a}} 
+\index{GA@{GA}!file\_write\_buffer@{file\_write\_buffer}}
+\index{file\_write\_buffer@{file\_write\_buffer}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{file\_write\_buffer}{file\_write\_buffer}}
+{\footnotesize\ttfamily double$\ast$ G\+A\+::file\+\_\+write\+\_\+buffer}
+
+
+
+Buffer to store the unit in/out flow information. 
+
+\mbox{\Hypertarget{classGA_a55f9d7cbfb8a6e0ad8de0910a1d4f77e}\label{classGA_a55f9d7cbfb8a6e0ad8de0910a1d4f77e}} 
+\index{GA@{GA}!fitness\_parents@{fitness\_parents}}
+\index{fitness\_parents@{fitness\_parents}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{fitness\_parents}{fitness\_parents}}
+{\footnotesize\ttfamily double$\ast$ G\+A\+::fitness\+\_\+parents}
+
+
+
+Fitness of corresponding parent. 
+
+\mbox{\Hypertarget{classGA_af49c6e09a84da90ba1e85736c3ed2532}\label{classGA_af49c6e09a84da90ba1e85736c3ed2532}} 
+\index{GA@{GA}!fitness\_population@{fitness\_population}}
+\index{fitness\_population@{fitness\_population}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{fitness\_population}{fitness\_population}}
+{\footnotesize\ttfamily double$\ast$ G\+A\+::fitness\+\_\+population}
+
+
+
+Fitness of corresponding population. 
+
+\mbox{\Hypertarget{classGA_af86a1c23b189146e7f83e93fad815f9f}\label{classGA_af86a1c23b189146e7f83e93fad815f9f}} 
+\index{GA@{GA}!mate\_count\_all@{mate\_count\_all}}
+\index{mate\_count\_all@{mate\_count\_all}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{mate\_count\_all}{mate\_count\_all}}
+{\footnotesize\ttfamily int G\+A\+::mate\+\_\+count\+\_\+all}
+
+
+
+Parameters for performance analysis. 
+
+\mbox{\Hypertarget{classGA_ad14b902202a90d6a5d34bf1fa665098c}\label{classGA_ad14b902202a90d6a5d34bf1fa665098c}} 
+\index{GA@{GA}!not\_improving\_count@{not\_improving\_count}}
+\index{not\_improving\_count@{not\_improving\_count}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{not\_improving\_count}{not\_improving\_count}}
+{\footnotesize\ttfamily int G\+A\+::not\+\_\+improving\+\_\+count}
+
+
+
+Iteration count during which the best fitness is not improving. 
+
+\mbox{\Hypertarget{classGA_a879a27a361c24720b16f8d4b34001bf2}\label{classGA_a879a27a361c24720b16f8d4b34001bf2}} 
+\index{GA@{GA}!nottouched@{nottouched}}
+\index{nottouched@{nottouched}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{nottouched}{nottouched}}
+{\footnotesize\ttfamily bool G\+A\+::nottouched}
+
+
+
+Flag for updating the best fitness value. 
+
+\mbox{\Hypertarget{classGA_aa11df611f020444f3ce0c2fc1e3a222f}\label{classGA_aa11df611f020444f3ce0c2fc1e3a222f}} 
+\index{GA@{GA}!old\_best\_fitness@{old\_best\_fitness}}
+\index{old\_best\_fitness@{old\_best\_fitness}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{old\_best\_fitness}{old\_best\_fitness}}
+{\footnotesize\ttfamily double G\+A\+::old\+\_\+best\+\_\+fitness}
+
+
+
+Last best fitness. 
+
+\mbox{\Hypertarget{classGA_aff1a455809a2e9af0d939b9a084f8873}\label{classGA_aff1a455809a2e9af0d939b9a084f8873}} 
+\index{GA@{GA}!parameters@{parameters}}
+\index{parameters@{parameters}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{parameters}{parameters}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structAlgorithm__Parameters}{Algorithm\+\_\+\+Parameters}} G\+A\+::parameters}
+
+\mbox{\Hypertarget{classGA_ace1ccee2bed1479fb3f9c7e26738f79a}\label{classGA_ace1ccee2bed1479fb3f9c7e26738f79a}} 
+\index{GA@{GA}!parents@{parents}}
+\index{parents@{parents}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{parents}{parents}}
+{\footnotesize\ttfamily int$\ast$ G\+A\+::parents}
+
+
+
+Parent pool. 
+
+\mbox{\Hypertarget{classGA_ae7cd9f6c98a1ab77bda21bf0e4e9d8c6}\label{classGA_ae7cd9f6c98a1ab77bda21bf0e4e9d8c6}} 
+\index{GA@{GA}!population@{population}}
+\index{population@{population}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{population}{population}}
+{\footnotesize\ttfamily int$\ast$ G\+A\+::population}
+
+
+
+Population pool. 
+
+\mbox{\Hypertarget{classGA_a6d479cee4ab4219084d589a97520d06b}\label{classGA_a6d479cee4ab4219084d589a97520d06b}} 
+\index{GA@{GA}!population\_idex\_list@{population\_idex\_list}}
+\index{population\_idex\_list@{population\_idex\_list}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{population\_idex\_list}{population\_idex\_list}}
+{\footnotesize\ttfamily int$\ast$ G\+A\+::population\+\_\+idex\+\_\+list}
+
+
+
+Ranking of corresponding population. 
+
+\mbox{\Hypertarget{classGA_a3f1d796bc10fc7fc93ac7a6bbb213335}\label{classGA_a3f1d796bc10fc7fc93ac7a6bbb213335}} 
+\index{GA@{GA}!rank\_sum@{rank\_sum}}
+\index{rank\_sum@{rank\_sum}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{rank\_sum}{rank\_sum}}
+{\footnotesize\ttfamily double$\ast$ G\+A\+::rank\+\_\+sum}
+
+
+
+Rolling sum for rank selection. 
+
+\mbox{\Hypertarget{classGA_a29ef5c1f73b30917320334f7bffafcbc}\label{classGA_a29ef5c1f73b30917320334f7bffafcbc}} 
+\index{GA@{GA}!rank\_val@{rank\_val}}
+\index{rank\_val@{rank\_val}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{rank\_val}{rank\_val}}
+{\footnotesize\ttfamily double$\ast$ G\+A\+::rank\+\_\+val}
+
+
+
+Ranking function values for each individual ranking. 
+
+\mbox{\Hypertarget{classGA_a539720319d6372118453a6cb93a32e83}\label{classGA_a539720319d6372118453a6cb93a32e83}} 
+\index{GA@{GA}!roulette\_sum@{roulette\_sum}}
+\index{roulette\_sum@{roulette\_sum}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{roulette\_sum}{roulette\_sum}}
+{\footnotesize\ttfamily double$\ast$ G\+A\+::roulette\+\_\+sum}
+
+
+
+Rolling sum for roulette selection. 
+
+\mbox{\Hypertarget{classGA_af4ed10169aa88221811f1d583da7ee05}\label{classGA_af4ed10169aa88221811f1d583da7ee05}} 
+\index{GA@{GA}!same\_mate@{same\_mate}}
+\index{same\_mate@{same\_mate}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{same\_mate}{same\_mate}}
+{\footnotesize\ttfamily int G\+A\+::same\+\_\+mate}
+
+
+
+Parameters for performance analysis. 
+
+\mbox{\Hypertarget{classGA_a9ca4e83111cd53be256e22b6a831b896}\label{classGA_a9ca4e83111cd53be256e22b6a831b896}} 
+\index{GA@{GA}!sim\_params@{sim\_params}}
+\index{sim\_params@{sim\_params}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{sim\_params}{sim\_params}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structSimulationParameters}{Simulation\+Parameters}} G\+A\+::sim\+\_\+params}
+
+\mbox{\Hypertarget{classGA_aff6dc4f89325014a1ac0c7796f988317}\label{classGA_aff6dc4f89325014a1ac0c7796f988317}} 
+\index{GA@{GA}!size\_per\_cir@{size\_per\_cir}}
+\index{size\_per\_cir@{size\_per\_cir}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{size\_per\_cir}{size\_per\_cir}}
+{\footnotesize\ttfamily int G\+A\+::size\+\_\+per\+\_\+cir}
+
+
+
+Size per circuit array. 
+
+\mbox{\Hypertarget{classGA_a0bb432b032a9df172ece4f4fc9d45919}\label{classGA_a0bb432b032a9df172ece4f4fc9d45919}} 
+\index{GA@{GA}!vec\_size\_parent@{vec\_size\_parent}}
+\index{vec\_size\_parent@{vec\_size\_parent}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{vec\_size\_parent}{vec\_size\_parent}}
+{\footnotesize\ttfamily int G\+A\+::vec\+\_\+size\+\_\+parent}
+
+
+
+Total size of parent-\/pool array. 
+
+\mbox{\Hypertarget{classGA_abc26ef1f09921dc8f9084b27f1342920}\label{classGA_abc26ef1f09921dc8f9084b27f1342920}} 
+\index{GA@{GA}!vec\_size\_population@{vec\_size\_population}}
+\index{vec\_size\_population@{vec\_size\_population}!GA@{GA}}
+\doxyparagraph{\texorpdfstring{vec\_size\_population}{vec\_size\_population}}
+{\footnotesize\ttfamily int G\+A\+::vec\+\_\+size\+\_\+population}
+
+
+
+Total size of population-\/pool array. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Genetic__Algorithm_8h}{Genetic\+\_\+\+Algorithm.\+h}}\item 
+src/\mbox{\hyperlink{Genetic__Algorithm_8cpp}{Genetic\+\_\+\+Algorithm.\+cpp}}\end{DoxyCompactItemize}

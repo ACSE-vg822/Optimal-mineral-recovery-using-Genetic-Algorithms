@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp  -pthread CMakeFiles/test_validity.dir/test_validity.cpp.o  -o bin/test_validity  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib ../lib/libgeneticAlgorithm.a ../src/libcircuitSimulator.a /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
